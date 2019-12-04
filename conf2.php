@@ -1,10 +1,10 @@
 <?php 
-$home_db_user='simdepth_home';
-$home_db_db='simdepth_home';
-$home_db_pass='R78adb1Be4';
-$admin_db_user='simdepth_admin';
-$admin_db_db='simdepth_admin';
-$admin_db_pass='R78adb1Be4';
+$home_db_user='admin_home';
+$home_db_db='admin_home';
+$home_db_pass='@Hyn12345';
+$admin_db_user='admin_admin';
+$admin_db_db='admin_admin';
+$admin_db_pass='@Hyn12345';
 
 $test=0;
 $error=0;
