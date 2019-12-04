@@ -1,7 +1,1240 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffaf782c-5ccb-497f-8a97-fbf4f6e727b3" name="Default Changelist" comment="" />
+    <list default="true" id="ffaf782c-5ccb-497f-8a97-fbf4f6e727b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/simdepthanhcong.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/400.shtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/401.shtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/403.shtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.shtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/500.shtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/adminauth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/index1.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/php-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/020967d0b6177a0096cdd979d9dde74fe16d4f3b.file.users.resetpass.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/04c4a92edcdab670b7781691ac3ca13c4a6db2b8.file.daily.edit.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/0653753714702ba7977c9e41ce91c363d14a24c5.file.seo301.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/08fc41c16ba0f816c9a6f4bea6d626200e8ef1ec.file.webdesign.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/0b03770a36179109cb7aa16cd0bd3673710fe4aa.file.daily.hh.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/11fa982687e4cf8c578f9e5f17fb5308fdc21d26.file.users.login.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/1b1bb2f465fd5d743c34eb179f86ed182e42c3d9.file.orders.view.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/1bdd66317404d8f40f753a953ef45840fb6f6851.file.daily.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/26fcea8dd0c04825ee3203c3363bc7cb00441426.file.cod.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/29092837705115b2bb4ce1b13a2eac44a3f5f96b.file.users.add.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/29a8a36485caf424d986cf0edd9c4a97c6894eaa.file.backup.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/2cbf59dbb46801f508ca602808c64df8300f952e.file.menu.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/2edda7d4c205d3265d60e833f9e757f6f1c7bd56.file.sim.quickremove.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/329b9b67030bc88fceb31ae0294fb08d9edff737.file.sethome.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/3b8e053da526e62a7a32790e488797d486d7f36d.file.processlist.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/3c12ed1695e31577012aa66fbfce1346cdb041c3.file.help.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/415aa7db912db1a56e40270c312f74f6e29504fa.file.page.addseo.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/43fac6d23eca5b7507e2430a27024e9910b8f9ce.file.congno.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/4615193c5240097bc78d9b6ac8687ca1d0488983.file.sms.sendlist.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/4c57706d3120c0599d4082cb4de0e2cd188ead54.file.orders.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/5526aa15c190292d6afeeb63600f77736b81fa33.file.daily.dangsim.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/58120d03f5404ffa574031a78b3cc4f3acc6e1c9.file.cod.add.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/59ec4031f72a39c69b8b961ec7a5fd74a5191b16.file.perm.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/5f2dbd595b46ffb0aafa4f6c2a90c1415dc8cdee.file.domain.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/5fcebb1e3e62d18496efaf4e8727c6d6c13d3c71.file.lock.mod.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/6019838089f4df6c2d65646424d2f2a4ab0ee17f.file.users.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/618c56ac625514082565068decae4b612829c2e0.file.thoathuan.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/62199ebe7a5f69b10ea748588063781c9d362758.file.lichsuchecksim.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/67d6b17f518aa5e816ada336c7e61dcba8d15038.file.seo.add.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/6d8b4a9d908aec51b525697547fab04b41220d42.file.dondep.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/73ee3e16682ec46694438ac2002c8012971d7e71.file.page.api.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/75993c4ca1d6a8efa45e83aba1518a33ae9d058c.file.home.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/7754d04ab5508188d4826f26b0df759fb211e693.file.fblivechat.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/785838981549ea68354f229643af8b3b59aa0b9c.file.footer.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/7d1babfa0eb9a22a8bee815bcfe29440e9a323b1.file.dataviettel.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/7ead3fd501ba43e6e34bacd9d8e49e77442992e8.file.users.changer.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/8573b07633c55245e5dedf8b8c7d089410d971df.file.config.add.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/8704adfea2f4dc8ebb1fb88e280a2fc00f9cf8c0.file.sms.bansotrung.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/89d5fc21ce552a1c2cb79297c2c6bece99c85df0.file.pagegroup.add.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/89f9f0bd85092a2bafe65d5040248f9914e63fd1.file.page.replace.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/8a4f49d3619e80577bdcb74a9fbe264f2afcab79.file.users.edit.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/8b4f360f9b56003738063e8815f0a00e0fee647d.file.xprint.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/8e595a4800ad789b165601cbe017984212b0d306.file.cachemanager.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/909508469d50d95ddbdde5fda05d53d5b8583d99.file.menu.edit.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/90b704816d228bfe2d559d156d0ca8c1c5db3d72.file.proxycache.add.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/97353a2e72840d07b0d2d5045a28d2670af8fcfd.file.page.edit.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/9e7e2d129d01a07f7dcfd13cbea78b034641f9f9.file.update.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/a010027c908350ce4164af576e1f4ac64f8048b8.file.page.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/a2c655f3c19463c366d1197030d6cf2f41a84316.file.doisim.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/a4348d4a1b93c19fa7deaa2d2a1e3c5ff6531d34.file.event.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/a64f1e222cc6042825cbdb42c163eabc9136d8ee.file.page.view.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/aacac8eb26ee6aa7ed8273830274581082864a4c.file.congno.edit.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/aaf84b685996af8fa08827e3e456efa171cbfc8a.file.daily.tg.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/ab63a097d58f1d3f84d940f1afd34d0dc2b4b827.file.sms.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/b27a7e13ae1c5ca131295bba1d3ee05bce06ca4c.file.seo.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/b3d75e503068706bb59465541ba9057414a070cd.file.checksim.sms.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/ba453e2e21d4c5d03cfbf7fb68f2f353a8f66905.file.dongbohoa.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/ba504000b35c1fbdd06a3cc5fe8f6a582a826531.file.shop.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/bace9fccc42cf2d7c14a24d98647656d86634f06.file.removesim.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/bf10a982256f8242edd57cc82604c6e9468b4895.file.page.find.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/c2f28da709b09744517806df84e9d0c2a1bf4462.file.daily.add.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/c4ae4e166e905196e243ef3abff9f5f1b7518351.file.page.add.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/c8cd72e4a9df50cc587668b440199a19110f3271.file.checksim.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/ca65b5400c5a63ac6c96c5d04a44673b5e7cce39.file.congno.input.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/ca893cbfd2b15d92749f910019d02266b856d247.file.checksim.top200.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/cb82300aeea464c16cdfc69cf825a4903a8614b1.file.config.edit.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/ce82f3ba6ce640da2438fc85fb92cac25640874b.file.ftpsync.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/cfc17bc04563ef55bc6a4687a06126f0c0fbe3aa.file.pagegroup.edit.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/d4b2fc57c941dee34d7c3d172e893d099f15f402.file.config.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/da1e3965bb21a59e267ed0ea8b653ec0fb44277e.file.edittool.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/db957494c3a1ddb2e9fc618ccb280496ee400e79.file.smsconfig.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/dc17dcb779a5e869506548c780c1eec03503a313.file.addkey.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/e14d6e3c170709cd7e2b52372bc1951d17178d39.file.seo.edit.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/e7ab62c1361ce21e27426ea3e00e6bda294e7fee.file.perm.add.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/ea9ac4fcd0ab3f66fb68292627891647eab3b30b.file.pagegroup.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/eb3b48781ba3769b5e915eac0995e9d8427d6188.file.sms.huongdan.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/f46dd9d28d8105bda70906cb5abed8d1654245b3.file.header.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/ffbd6b8db11a1e8cee1608b956d68f4fa94ffded.file.congno.cod.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/simdepthanhcongcom_css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admincp/templates_c/sodepthanglongvn_css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cgi-bin/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.thumbs/images/Service-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.thumbs/images/Untitled.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.thumbs/images/banner11111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.thumbs/images/banner1111112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.thumbs/images/banner333.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.thumbs/images/images (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.thumbs/images/images (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.thumbs/images/images (8).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.thumbs/images/tsa_giam_gia2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.thumbs/images/tÃ¡ÂºÂ£i xuÃ¡Â»â€˜ng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_MS4gTmjhu69uZyBz4buRIMSRaeG7h24gdGhv4bqhaSBNb2JpZm9uZSBuaMawIHRo4bq_IG7DoG8gxJHGsOG7o2MgY29pIGzDoCBz4buRIMSR4bq5cA1555557315.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_MTI5MjMxODlfNTA5NjE1NzgyNTc0MDI3Xzg2NzIyMDc0NzM4NzkzNTUyNTZfbi5qcGc1460011043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_MTI5MjMxODlfNTA5NjE1NzgyNTc0MDI3Xzg2NzIyMDc0NzM4NzkzNTUyNTZfbi5qcGc1460011044.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Mi5wbmc1465873163.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Mi5wbmc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_MzUuanBn1465873567.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_MzUuanBn1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_NDEucG5n1465872767.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_NDEucG5n1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Ni5qcGc1465871991.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Ni5qcGc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Ny5qcGc1465870866.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Ny5qcGc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q2jDuiDDvSDEkeG6v24gMyBz4buRIMSR4bqndSBzaW0gdGFtIGhvYSBuw6puIGNo4buNbiBz4buRIGzhursuanBn1562917703.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q2jDuiDDvSDEkeG6v24gY8OhYyBkw6N5IHPhu5EgZ2nhu69hIGPhu6dhIHNpbSB0YW0gaG9hLmpwZw1562918621.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q2jhu41uIG11YSBzaW0gc-G7kSDEkeG6uXAgVmluYXBob25lIDEwIHPhu5EgaGF5IDExIHPhu5EuanBn1560939758.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q2jhu41uIHNpbSBz4buRIHTGsMahbmcgc2luaCB24bubaSB24bqtbiBt4buHbmggY2jhu6cgbmjDom4ucG5n1555916487.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q2jhu41uIHNpbSBz4buRIMSR4bq5cCBo4bujcCB0deG7lWkgY8OzIGNoxrBhIGPDoWMgY2jhu68gc-G7kSBtYXkucG5n1560914681.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q2jhu41uIHNpbSDEkcO0aSB0aGVvIGLhu5kgOSBz4buRIMSR4bqndSBnaeG7kW5nIG5oYXUucG5n1560825348.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q2jhu41uIMSR4buLYSBjaOG7iSBtdWEgc2ltIE1vYmlmb25lIHPhu5EgxJHhurlwIHV5IHTDrW4uanBn1555665974.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q8OhY2ggY2jhu41uIG11YSBzaW0gc-G7kSDEkeG6uXAgVmluYXBob25lLmpwZw1560939918.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q8OhY2ggbHXhuq1uIHNpbSBz4buRIMSR4bq5cCBNb2JpZm9uZSBraMOhIMSRxqFuIGdp4bqjbi5qcGc1554456669.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q8OhY2ggbHXhuq1uIHNpbSBz4buRIMSR4bq5cCBk4buxYSB2w6BvIGPDoWMgY29uIHPhu5EuanBn1554456858.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q8OhY2ggdMOtbmggdsOgIHhlbSBzaW0gcGhvbmcgdGjhu6d5IGjhu6NwIHbhu5tpIHRow6JuIGNo4bunLnBuZw1562117395.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q8OhY2ggxJHhu4MgbXVhIMSRxrDhu6NjIHNpbSBz4buRIMSR4bq5cCBNb2JpZm9uZSBnacOhIHLhursgdsOgIGFuIHRvw6BuIG5o4bqldC5qcGc1555904076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Q8OzIHRo4buDIMSRw6FuaCBnacOhIHNpbSBz4buRIMSR4bq5cCBk4buxYSB2w6BvIHBob25nIHRo4buneS5qcGc1554438445.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy81Y2Y1YjIxMzM0NzM4NjhkN2VmZTA2NGRlNDllZGY1Zi5qcGc1542095682.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy82MjAwZDBjYzI1OTVjYTZjYjEzZDQ3MzA3YTVhNjVlMS5qcGc1542095541.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy82ZTY4NGM3OGUzNzVkYmM0NWI2YjRlYzY5ZDY4OTk2Ny5qcGc1542095682.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy85MjdhYzg2OTdhNWU1Y2RhOTI5MDYxY2ZiMjFhMTg4Ny5qcGc1542095540.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy8wZWY0M2NlOWU1ZDRmYjdlOWY1YTA2MTc2ZmEwYTVhYy5qcGc1542095682.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy8yZDllMDZiYjFkOTdjNDA1NTBlMDhjZmQxNjdhNGNkOS5qcGc1542268758.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy8zMDQ2NTc1ZDkxODc3YTdiYWEzYzU1MGI0YjNhZTljOC5qcGc1542095682.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy8zOTY1NzI5NGJkYmMwMDI3Y2Q2MmZlMzFkOGNkODg1Zi5qcGc1552385153.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy8zZTZmMGM4Y2VhMTM0YjNjYjlkM2M0YzgzNTcyMzY3ZS5qcGc1542095541.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy9hN2ZjODRhMTY4MTgyZDVkOTNjZWMwOGQ5M2ZkMDllNC5qcGc1551769559.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy9hZmQ0NTAyM2Y2NzQ2OTRlNDk1ZDI1YjRiMDA4NjZmNi5qcGc1542095541.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy9jZjU4N2UxN2Y4ZWYzY2I1ZjU0MWQyODZmNjk2NjQzYy5qcGc1542095682.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy9kMGQ1NWQxNzBlZDhjZjJlOTFkN2VmY2RiODlkMTQ1ZS5qcGc1542269565.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy9lZTJkMmQzYjUxYTE2YTI4YzQzNDE2ODYyNzVhYzQwNi5qcGc1542095540.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QXV0b0ltYWdlcy9mZjBhYjk4NjkzOTFmZWQ4MDYxNTI5Y2Q2MTMyZDNkMC5qcGc1542186543.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_QsOtIGvDrXAgxJHhu4MgbXVhIHNpbSBzaW5oIHZpw6puIFZpZXR0ZWwgZ2nDoSBy4bq7LmpwZw1554438588.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_ROG7sWEgdsOgbyBjb24gc-G7kSBtYXkgbeG6r24gdHJvbmcgcGhvbmcgdGjhu6d5IMSR4buDIGNo4buNbiBzaW0gc-G7kSDEkeG6uXAuanBn1554344120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_S2jhurNuZyDEkeG7i25oIMSR4bqzbmcgY-G6pXAga2hpIGTDuW5nIHNpbSBz4buRIMSR4bq5cC5wbmc1554344049.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_S2nhu4NtIHRyYSBj4bqpbiB0aOG6rW4gc2ltIHRyxrDhu5tjIGtoaSB0aGFuaCB0b8Ohbi5qcGc1555666041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_THXhuq1uIHNpbSBz4buRIMSR4bq5cCBk4buxYSB2w6BvIHBob25nIHRo4buneS5qcGc1554456769.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TMO9IGRvIGLhuqFuIG7Dqm4gc-G7nyBo4buvdSBjaG8gbcOsbmggbeG7mXQgY2hp4bq_YyBzaW0gc-G7kSDEkeG6uXAgVmlldHRlbC5qcGc1562553433.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TMO9IGRvIGLhuqFuIG7Dqm4gc-G7nyBo4buvdSBjaG8gbcOsbmggbeG7mXQgY2hp4bq_YyBzaW0gc-G7kSDEkeG6uXAgVmlldHRlbC5qcGc1562553467.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TMawdSDDvSBj4bqnbiBiaeG6v3QgxJHhu4MgY8OzIHRo4buDIGNo4buNbiDEkcaw4bujYyBzaW0gc-G7kSDEkeG6uXAgVmlldHRlbC5wbmc1562553572.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TOG7sWEgY2jhu41uIG11YSBzaW0gc-G7kSDEkeG6uXAgdmluYXBob25lIDEwIHPhu5EgZ2nDoSBy4bq7LmpwZw1556008256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TOG7sWEgY2jhu41uIGTDo3kgc-G7kSBzaW0gdGFtIGhvYSDEkeG6uXAgdsOgIHBow7kgaOG7o3AucG5n1562918582.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TOG7sWEgY2jhu41uIHNpbSBwaG9uZyB0aOG7p3kgcGjDuSBo4bujcCB24bubaSB0w6BpIHbGsOG7o25nIGPhu6dhIGLhuqFuLnBuZw1562117445.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TOG7sWEgY2jhu41uIHNpbSBz4buRIMSR4bq5cCBt4bqhbmcgVmlldHRlbC5wbmc1554438221.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TXVhIHNpbSB2aW5hcGhvbmUgMTAgc-G7kSBnacOhIHLhursga2jDtG5nIGtow7MuanBn1556008203.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TeG7l2kgY2jhu68gc-G7kSB0cm9uZyBzaW0gbmfFqSBxdcO9IMSR4buBdSBjw7Mgbmjhu69uZyDhuqluIHPhu5EgcmnDqm5nLmpwZw1562733335.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TeG7mXQgc-G7kSBsxrB1IMO9IGtoaSBtdWEgc2ltIMSR4bq5cCBNb2JpZm9uZS5wbmc1554457408.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Tmh1IGPhuqd1IHPhu60gZOG7pW5nIHNpbSBz4buRIMSR4bq5cCBWaW5hcGhvbmUgxJFhbmcgcuG6pXQgbOG7m24ucG5n1562560822.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TmjDoCBt4bqhbmcgVmluYXBob25lIGPDsyBuaGnhu4F1IGNoxrDGoW5nIHRyw6xuaCBraHV54bq_biBtw6NpIHbDoCBk4buLY2ggduG7pSB0aeG7h24gw61jaC5qcGc1560939702.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Tmjhu69uZyB0acOqdSBjaMOtIMSR4buDIHTDrW5oIHNpbSBwaG9uZyB0aOG7p3kgY2h14bqpbi5wbmc1562117484.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TsO6dCBzaW0gY8OgbmcgbOG7m24gdGjDrCBzaW0gc-G6vSBjw6BuZyDEkeG6uXAucG5n1560821517.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TsO6dCBzaW0gY8OgbmcgbOG7m24gdGjDrCBzaW0gc-G6vSBjw6BuZyDEkeG6uXAucG5n1561358890.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_TsOqbiDEkcSDbmcga8O9IHNpbSB0cuG6oyBzYXUga2hpIHPhu60gZOG7pW5nIHPhu5EgxJHhurlwLmpwZw1555666165.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U-G7kSDEkWnhu4duIHRob-G6oWkgY8OgbmcgxJHhurlwIGPDoG5nIHRodSBow7p0IGtow6FjaCBow6BuZy5qcGc1555557393.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIE1vYmlmb25lIG5oaeG7gXUgxJFp4buDbSDGsHUgxJHDo2kuanBn1555920770.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIE1vYmlmb25lIGNobyBuaGnhu4F1IGzhu7FhIGNo4buNbi5wbmc1555916354.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIFZpZXR0ZWwgc-G7kSDEkeG6uXAgSG90IG5o4bqldCBoaeG7h24gbmF5LnBuZw1554261628.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIG5nxakgcXXDvSB0aOG7gyBoaeG7h24gxJHhurNuZyBj4bqlcCBj4bunYSBi4bqhbi5qcGc1562733395.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIHBob25nIHRo4buneSBo4bujcCB0deG7lWkuanBn1560914493.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIHNpbmggdmnDqm4gVmlldHRlbCBjw7Mgbmhp4buBdSBnw7NpIGPGsOG7m2MgcuG6pXQgcuG6uyBjaG8gbmfGsOG7nWkgc-G7rSBk4bulbmcuanBn1554437989.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIHPhu5EgxJHhurlwIE1vYmlmb25lLnBuZw1555916399.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIHPhu5EgxJHhurlwIHBo4bqjaSBjw7Mgc-G7sSBjw6JuIGLhurFuZyDDom0gZMawxqFuZy5qcGc1560821480.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIHPhu5EgxJHhurlwIHBo4bqjaSBjw7Mgc-G7sSBjw6JuIGLhurFuZyDDom0gZMawxqFuZy5qcGc1561358835.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIHPhu5EgxJHhurlwIHF1YSDEkXXDtGkgc-G7kS5qcGc1554344261.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIHPhu5EgxJHhurlwIHRoZW8gw70gIG114buRbi5qcGc1556175631.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIHPhu5EgxJHhurlwIHZpbmFwaG9uZSAxMCBz4buRLmpwZw1556006671.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIHTDrG5oIG5ow6JuIE1vYmkga-G6v3QgbuG7kWkgY8OhYyBj4bq3cCDEkcO0aS5wbmc1560824907.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2ltIHZpbmEgc2luaCB2acOqbiBuaGnhu4F1IMawdSDEkcOjaS5qcGc1555925478.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_U2luaCB2acOqbiBk4buFIGTDoG5nIHPhu58gaOG7r3Ugc2ltIHZpbmEuanBn1555925577.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_VGjhu4MgaGnhu4duIMSRxrDhu6NjIMSR4bqzbmcgY-G6pXAgdHJvbmcga2luaCBkb2FuaCBraGkgc-G7rSBk4bulbmcgc-G7kSBzaW0gxJHhurlwLmpwZw1555557753.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_VGnDqnUgxJHhu4EgdGjGsCBt4bulYy8xMjkyMzE4OV81MDk2MTU3ODI1NzQwMjdfODY3MjIwNzQ3Mzg3OTM1NTI1Nl9uLmpwZw1460011072.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_VMawIHbhuqVuIGPDoWNoIGNo4buNbiBzaW0gc-G7kSDEkeG6uXAgcGhvbmcgdGjhu6d5IGjhu6NwIHR14buVaS5qcGc1560914615.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_VOG6oWkgc2FvIG7Dqm4gY2jhu41uIG11YSBzaW0gc-G7kSDEkeG6uXAgVmlldHRlbCAxMCBz4buRLmpwZw1554261496.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_VOG6oWkgc2FvIG7Dqm4gY2jhu41uIHNpbSBz4buRIMSR4bq5cCBNb2JpZm9uZS5wbmc1562557465.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_VOG6oWkgc2FvIG7Dqm4gbXVhIHNpbSB2aWV0dGVsIHPhu5EgxJHhurlwLmpwZw1554343938.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_VsOsIHNhbyBuw6puIG11YSBzaW0gc-G7kSDEkeG6uXAgVmluYXBob25lLnBuZw1560939567.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_WGVtIHNpbSBz4buRIMSR4bq5cCBo4bujcCBwaG9uZyB0aOG7p3kgdGhlbyBuZ8WpIGjDoG5oLmpwZw1560821418.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_WGVtIHNpbSBz4buRIMSR4bq5cCBo4bujcCBwaG9uZyB0aOG7p3kgdGhlbyBuZ8WpIGjDoG5oLmpwZw1561358779.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_WHUgaMaw4bubbmcgY2jhu41uIHNpbSDEkWnhu4duIHRob-G6oWkgxJHhurlwIG7Eg20gMjAxOS5qcGc1554255337.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Y2FjIGNvbiBzby5qcGc1467021682.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Y2FjIGNvbiBzby5qcGc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Y2FtLWtldCBoYWkgbG9uZy5wbmc1467012381.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Y2FtLWtldCBoYWkgbG9uZy5wbmc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Y2jhu41uIHNpbSB2aW5hcGhvbmUgMTAgc-G7kSBnacOhIHLhursuanBn1560939758.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_YWFhLmpwZw1465053155.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_YjEucG5n1547174684.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_YjIucG5n1547174703.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_YmFubmVyLnBuZw1487646473.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_YsOtIGvDrXAgbXVhIHNpbSBz4buRIMSR4bq5cCBtb2JpZm9uZSBnacOhIHLhursgVFBIQ00uanBn1555920880.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Z29vZ2xlcGx1cy5wbmc1419075948.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_Z29vZ2xlcGx1cy5wbmc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_ZG9uZ2FbMV0uanBn1419233361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_ZGF1LXNvLTA4LXZpbmFwaG9uZS5wbmc1562561541.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_ZWNvbm9teS10b25na2hvc2ltdm5fY29tLmpwZw1467012231.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_ZWNvbm9teS10b25na2hvc2ltdm5fY29tLmpwZw1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_ZmFjZWJvb2sucG5n1419075898.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_ZmFjZWJvb2sucG5n1419075899.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_ZmFjZWJvb2sucG5n1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_ZmIuanBn1464427314.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20va2h1eWVuLW1haS12aW5hcGhvbmUtMTAwLW5nYXktMDctMDYuanBn1467022621.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS94ZW0tY29wYS1hbWVyaWNhLTIwMTYtdm9pLWNhYy1nb2ktY3VvYy0zZy1tb2JpZm9uZS0xLmpwZw1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS9nb2ktbmhhbi10aW4tbm9pLW1hbmctbW9iaWZvbmUuanBn1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS9raHV5ZW4tbWFpLTUwLXRoZS1uYXAtbW9iaWZvbmUuanBn1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS9raHV5ZW4tbWFpLW1vYmlmb25lLXRhbmctMTAwLWRhdGEtbmdheS0xMS02LTEyLTYtNzY4eDU3MS5wbmc1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS9raHV5ZW4tbWFpLW1vYmlmb25lLXRhbmctNTAtdGhlLW5hcC5qcGc1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS9rbS1uYXAtdGhlLXRydWMtdHV5ZW4tbW9iaWZvbmUuanBn1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS9tb2JpZm9uZS1rbS1uYXAtdGhlLXRydWMtdHV5ZW4tbmdheS0xMC02LmpwZw1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS9tb2JpZm9uZS1rbS1uYXAtdGhlLXRydWMtdHV5ZW4tbmdheS0yNC02LmpwZw1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS9tb2JpZm9uZS1rbS1uYXAtdGllbi10cnVjLXR1eWVuLmpwZw1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS9zaW0tY2F5LWtoZS1tb2JpZm9uZS0xLmpwZw1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS9zaW0tY2F5LWtoZS1tb2JpZm9uZS5qcGc1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vbW9iaS9zaW0tdGFtLW1vYmlmb25lLTc2OHg0MzIuanBn1467041187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmlldHRlbC9nw7NpIE1JNU4gVklFVFRFTC5qcGc1467040797.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmlldHRlbC9ob2EtbWFuZy1zaW0tMDg2LXZpZXR0ZWwuanBn1467040797.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmlldHRlbC9raHV5ZW4tbWFpLWRvaS10aWVuLXZpZXR0ZWwucG5n1467040797.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmlldHRlbC9raHV5ZW4tbWFpLWhvYS1tYW5nLXRyYS1zYXUtdmlldHRlbC02MjAxNi5qcGc1467040797.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmlldHRlbC9raHV5ZW4tbWFpLXZpZXR0ZWwtMTYtNi5qcGc1467040797.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmluYS92aW5hcGhvbmUta2h1eWVuLW1haS5qcGc1467022649.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmluYS9jcm9wcGVkLVBvc3Rlci0xLTEyMDB4MTMzOC5qcGc1467022743.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmluYS9nb2ktY3VvYy10MjAtdmluYXBob25lLTEucG5n1467022743.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmluYS9raHV5ZW4tbWFpLTUwLXZpbmFwaG9uZS0xNzA2LnBuZw1467022743.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmluYS9raHV5ZW4tbWFpLXZpbmFwaG9uZS0xMC02LTIwMTYuanBn1467022743.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmluYS9raHV5ZW4tbWFpLXZpbmFwaG9uZS0xMDAtbmdheS0wNy0wNi5qcGc1467022621.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmluYS9raHV5ZW4tbWFpLXZpbmFwaG9uZS1uZ2F5LTI2LTYuanBn1467022743.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_a20vdmluYXBob25lLWtodXllbi1tYWkuanBn1467022649.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aG90bGluZS5wbmc1464001867.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aG90bGluZWJvdHRvbS5wbmc1542595578.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aGVscFsxXS5qcGc1422152442.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aGluaC10aHVjLXRoYW5oLXRvYW4uanBn1467022031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aGluaC10aHVjLXRoYW5oLXRvYW4uanBn1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzICg2KS5qcGc1467021888.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzICg2KS5qcGc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzICgzKS5qcGc1467021429.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzICgzKS5qcGc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL1NlcnZpY2UtNC5qcGc1465608842.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL1NlcnZpY2UtNC5qcGc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL1VudGl0bGVkLmpwZw1465659661.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL1VudGl0bGVkLmpwZw1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL21hbmcucG5n1542078107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2IxLmdpZg1467025314.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2IxLmdpZg1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2IyLmdpZg1467025317.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2IyLmdpZg1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2Jhbm5lcjExMTExLnBuZw1465530556.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2Jhbm5lcjExMTExLnBuZw1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2Jhbm5lcjExMTExMTIucG5n1465530862.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2Jhbm5lcjExMTExMTIucG5n1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2Jhbm5lcjMzMy5wbmc1465531765.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2Jhbm5lcjMzMy5wbmc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2hvdGxpbmVib3R0b20ucG5n1542595578.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ljb24tbGktbnMucG5n1547021293.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ljb24tc3AtMS5wbmc1542940170.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ljb24tc3AtMi5wbmc1542940318.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ljb24tc3AucG5n1542939985.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ltYWdlL251dHRpbS5wbmc1548814192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ltYWdlL2RhdG11YTEucG5n1548054784.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ltYWdlL2ljb24tbmV3cy5wbmc1548814899.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ltYWdlL2ljb25fZHMucG5n1548057442.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ltYWdlL2xpLWEtc2ltY2FyZC5wbmc1548209351.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ltYWdlcyAoNCkuanBn1465609529.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ltYWdlcyAoNCkuanBn1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ltYWdlcyAoNSkuanBn1465609937.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ltYWdlcyAoNSkuanBn1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ltYWdlcyAoOCkuanBn1465889844.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2ltYWdlcyAoOCkuanBn1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2xpLWEtc2ltY2FyZC5wbmc1547023997.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL2xvZ29fc3Rzb2RlcC5wbmc1546845187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL3Bob25lMC5wbmc1542595654.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL3Bob25lX3cucG5n1542940473.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL3RzYV9naWFtX2dpYTIuanBn1465659661.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL3RzYV9naWFtX2dpYTIuanBn1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL3TDocK6wqNpIHh1w6HCu-KAmG5nLnBuZw1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_aW1hZ2VzL3ThuqNpIHh14buRbmcucG5n1465889734.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bG9nby1uaGEtbWFuZy5qcGc1467021797.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bG9nby1uaGEtbWFuZy5qcGc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bG9pLWljaC1zaW0tbmd1LXF1eS0xMC1zby5qcGc1562732944.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bW9iaWZvbmUuanBn1467012252.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bW9iaWZvbmUuanBn1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bWFwLmpwZw1418897919.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmV3LmdpZg1572683246.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvVW50aXRsZWQtMVsxXS5qcGc1419233476.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvVW50aXRsZWQtMVsxXS5qcGc1419233477.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvY2FyZC12aWJhbmtbMV0uanBn1419233462.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvY2FyZC12aWJhbmtbMV0uanBn1419233463.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvYWNiWzFdLmpwZw1419233502.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvYWNiWzFdLmpwZw1419233503.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvYWdyaWJhbmtbMV0uanBn1419233422.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvYmlkdlsxXS5naWY1419233490.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvZG9uZ2FbMV0uanBn1419233360.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvZG9uZ2FbMV0uanBn1419233361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvc2Fjb21iYW5rWzFdLmpwZw1419233514.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvc2Fjb21iYW5rWzFdLmpwZw1419233515.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvdGVjaGNvbWJhbmtbMV0uanBn1419233450.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvdmlldGNvbWJhbmtbMV0uanBn1419233392.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_bmdhbmhhbmcvdmlldGNvbWJhbmtbMV0uanBn1419233393.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltIHPhu5EgxJHhurlwIGzDoCBnw6wuanBn1561361024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltIHThu6kgcXXDvSB0aOG7gyBoaeG7h24gxJHhurNuZyBj4bqlcC5qcGc1554261965.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltMy5qcGc1467022152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltMy5qcGc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltNC5qcGc1467022182.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltNC5qcGc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltZGVwMjRoLmpwZw1564133578.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltZGVwMjRoXzEuanBn1564204594.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltZGVwMjRoXzEuanBn1572594845.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltZGVwMjRoXzIuanBn1572594380.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltZGVwMjRoXzMuanBn1572594423.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltdGhhbmhuYW0ucG5n1463999944.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltdGhhbmhuYW0ucG5n1465055147.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_c2ltdGhhbmhuYW0xLnBuZw1463998880.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_dHdpdHRlci5wbmc1419075926.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_dHdpdHRlci5wbmc1419075927.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_dHdpdHRlci5wbmc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_dMOhwrrCo2kgeHXDocK74oCYbmcgKDIpLmpwZw1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_dMOhwrrCo2kgeHXDocK74oCYbmcgKDQpLmpwZw1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_dOG6o2kgeHXhu5FuZyAoMSkuanBn1467021345.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_dOG6o2kgeHXhu5FuZyAoMSkuanBn1467021682.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_dOG6o2kgeHXhu5FuZyAoMikuanBn1467021277.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_dOG6o2kgeHXhu5FuZyAoNCkuanBn1467021268.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_dOG6o2kgeHXhu5FuZyAoNCkuanBn1467021963.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_dW5uYW1lZC5qcGc1555904020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_eW91dHViZS5wbmc1419075892.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_eW91dHViZS5wbmc1487218614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_emFsby5wbmc1572764906.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_w50gbmdoxKlhIGPhu6dhIHNpbSBz4buRIMSR4bq5cCBwaG9uZyB0aOG7p3kgaOG7o3AgdHXhu5VpLmpwZw1560914545.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_w50gbmdoxKlhIGPhu6dhIHZp4buHYyBs4buxYSBjaOG7jW4gc2ltIMSRaeG7h24gdGhv4bqhaSDEkeG6uXAuanBn1554199083.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_xJDEg25nIGvDvSB0aMO0bmcgdGluIGPDoSBuaMOibiBjaGkgdGnhur90IGtoaSBrw61jaCBob-G6oXQgc2ltLmpwZw1555666115.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_xJDhu4thIGNo4buJIG11YSBzaW0gc-G7kSDEkeG6uXAgdXkgdMOtbi5wbmc1562558303.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_xJDhu4thIGNo4buJIGLDoW4gc2ltIHPhu5EgxJHhurlwIFZpbmFwaG9uZSB1eSB0w61uLmpwZw1562560884.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.tmb/l1_xJDhurd0IG11YSBzaW0gdGhlbyB5w6p1IGPhuqd1LmpwZw1556175694.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1. Nhá»¯ng sá»‘ Ä‘iá»‡n thoáº¡i Mobifone nhÆ° tháº¿ nÃ o Ä‘Æ°á»£c coi lÃ  sá»‘ Ä‘áº¹p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/0ef43ce9e5d4fb7e9f5a06176fa0a5ac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/2d9e06bb1d97c40550e08cfd167a4cd9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/3046575d91877a7baa3c550b4b3ae9c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/39657294bdbc0027cd62fe31d8cd885f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/3e6f0c8cea134b3cb9d3c4c83572367e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/5cf5b2133473868d7efe064de49edf5f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/6200d0cc2595ca6cb13d47307a5a65e1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/6e684c78e375dbc45b6b4ec69d689967.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/876a55acc2f93846718d416fdd2d2776.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/927ac8697a5e5cda929061cfb21a1887.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/a7fc84a168182d5d93cec08d93fd09e4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/afd45023f674694e495d25b4b00866f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/cf587e17f8ef3cb5f541d286f696643c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/d0d55d170ed8cf2e91d7efcdb89d145e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/ee2d2d3b51a16a28c4341686275ac406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AutoImages/ff0ab9869391fed8061529cd6132d3d0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/BÃ­ kÃ­p Ä‘á»ƒ mua sim sinh viÃªn Viettel giÃ¡ ráº».jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ChÃº Ã½ Ä‘áº¿n 3 sá»‘ Ä‘áº§u sim tam hoa nÃªn chá»�n sá»‘ láº».jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ChÃº Ã½ Ä‘áº¿n cÃ¡c dÃ£y sá»‘ giá»¯a cá»§a sim tam hoa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Chá»�n sim sá»‘ tÆ°Æ¡ng sinh vá»›i váº­n má»‡nh chá»§ nhÃ¢n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Chá»�n sim sá»‘ Ä‘áº¹p há»£p tuá»•i cÃ³ chÆ°a cÃ¡c chá»¯ sá»‘ may.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Chá»�n sim Ä‘Ã´i theo bá»™ 9 sá»‘ Ä‘áº§u giá»‘ng nhau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Chá»�n Ä‘á»‹a chá»‰ mua sim Mobifone sá»‘ Ä‘áº¹p uy tÃ­n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CÃ¡ch chá»�n mua sim sá»‘ Ä‘áº¹p Vinaphone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CÃ¡ch luáº­n sim sá»‘ Ä‘áº¹p Mobifone khÃ¡ Ä‘Æ¡n giáº£n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CÃ¡ch luáº­n sim sá»‘ Ä‘áº¹p dá»±a vÃ o cÃ¡c con sá»‘.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CÃ¡ch tÃ­nh vÃ  xem sim phong thá»§y há»£p vá»›i thÃ¢n chá»§.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CÃ¡ch Ä‘á»ƒ mua Ä‘Æ°á»£c sim sá»‘ Ä‘áº¹p Mobifone giÃ¡ ráº» vÃ  an toÃ n nháº¥t.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CÃ³ thá»ƒ Ä‘Ã¡nh giÃ¡ sim sá»‘ Ä‘áº¹p dá»±a vÃ o phong thá»§y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Dá»±a vÃ o con sá»‘ may máº¯n trong phong thá»§y Ä‘á»ƒ chá»�n sim sá»‘ Ä‘áº¹p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Kháº³ng Ä‘á»‹nh Ä‘áº³ng cáº¥p khi dÃ¹ng sim sá»‘ Ä‘áº¹p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Kiá»ƒm tra cáº©n tháº­n sim trÆ°á»›c khi thanh toÃ¡n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Luáº­n sim sá»‘ Ä‘áº¹p dá»±a vÃ o phong thá»§y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LÃ½ do báº¡n nÃªn sá»Ÿ há»¯u cho mÃ¬nh má»™t chiáº¿c sim sá»‘ Ä‘áº¹p Viettel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LÆ°u Ã½ cáº§n biáº¿t Ä‘á»ƒ cÃ³ thá»ƒ chá»�n Ä‘Æ°á»£c sim sá»‘ Ä‘áº¹p Viettel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Lá»±a chá»�n dÃ£y sá»‘ sim tam hoa Ä‘áº¹p vÃ  phÃ¹ há»£p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Lá»±a chá»�n mua sim sá»‘ Ä‘áº¹p vinaphone 10 sá»‘ giÃ¡ ráº».jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Lá»±a chá»�n sim phong thá»§y phÃ¹ há»£p vá»›i tÃ i vÆ°á»£ng cá»§a báº¡n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Lá»±a chá»�n sim sá»‘ Ä‘áº¹p máº¡ng Viettel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Mua sim vinaphone 10 sá»‘ giÃ¡ ráº» khÃ´ng khÃ³.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Má»—i chá»¯ sá»‘ trong sim ngÅ© quÃ½ Ä‘á»�u cÃ³ nhá»¯ng áº©n sá»‘ riÃªng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Má»™t sá»‘ lÆ°u Ã½ khi mua sim Ä‘áº¹p Mobifone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Nhu cáº§u sá»­ dá»¥ng sim sá»‘ Ä‘áº¹p Vinaphone Ä‘ang ráº¥t lá»›n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/NhÃ  máº¡ng Vinaphone cÃ³ nhiá»�u chÆ°Æ¡ng trÃ¬nh khuyáº¿n mÃ£i vÃ  dá»‹ch vá»¥ tiá»‡n Ã­ch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Nhá»¯ng tiÃªu chÃ­ Ä‘á»ƒ tÃ­nh sim phong thá»§y chuáº©n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/NÃªn Ä‘Äƒng kÃ½ sim tráº£ sau khi sá»­ dá»¥ng sá»‘ Ä‘áº¹p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/NÃºt sim cÃ ng lá»›n thÃ¬ sim sáº½ cÃ ng Ä‘áº¹p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim Mobifone cho nhiá»�u lá»±a chá»�n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim Mobifone nhiá»�u Ä‘iá»ƒm Æ°u Ä‘Ã£i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim Viettel sá»‘ Ä‘áº¹p Hot nháº¥t hiá»‡n nay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim ngÅ© quÃ½ thá»ƒ hiá»‡n Ä‘áº³ng cáº¥p cá»§a báº¡n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim phong thá»§y há»£p tuá»•i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim sinh viÃªn Viettel cÃ³ nhiá»�u gÃ³i cÆ°á»›c ráº¥t ráº» cho ngÆ°á»�i sá»­ dá»¥ng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim sá»‘ Ä‘áº¹p Mobifone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim sá»‘ Ä‘áº¹p pháº£i cÃ³ sá»± cÃ¢n báº±ng Ã¢m dÆ°Æ¡ng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim sá»‘ Ä‘áº¹p qua Ä‘uÃ´i sá»‘.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim sá»‘ Ä‘áº¹p theo Ã½  muá»‘n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim sá»‘ Ä‘áº¹p vinaphone 10 sá»‘.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim tÃ¬nh nhÃ¢n Mobi káº¿t ná»‘i cÃ¡c cáº·p Ä‘Ã´i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sim vina sinh viÃªn nhiá»�u Æ°u Ä‘Ã£i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sinh viÃªn dá»… dÃ ng sá»Ÿ há»¯u sim vina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Sá»‘ Ä‘iá»‡n thoáº¡i cÃ ng Ä‘áº¹p cÃ ng thu hÃºt khÃ¡ch hÃ ng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Thá»ƒ hiá»‡n Ä‘Æ°á»£c Ä‘áº³ng cáº¥p trong kinh doanh khi sá»­ dá»¥ng sá»‘ sim Ä‘áº¹p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/TiÃƒÂªu Ã„â€˜Ã¡Â»Â� tÃ¡Â»â€¡p tin  1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/TiÃƒÂªu Ã„â€˜Ã¡Â»Â� tÃ¡Â»â€¡p tin .txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/TÆ° váº¥n cÃ¡ch chá»�n sim sá»‘ Ä‘áº¹p phong thá»§y há»£p tuá»•i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Táº¡i sao nÃªn chá»�n mua sim sá»‘ Ä‘áº¹p Viettel 10 sá»‘.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Táº¡i sao nÃªn chá»�n sim sá»‘ Ä‘áº¹p Mobifone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Táº¡i sao nÃªn mua sim viettel sá»‘ Ä‘áº¹p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/VÃ¬ sao nÃªn mua sim sá»‘ Ä‘áº¹p Vinaphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Xem sim sá»‘ Ä‘áº¹p há»£p phong thá»§y theo ngÅ© hÃ nh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Xu hÆ°á»›ng chá»�n sim Ä‘iá»‡n thoáº¡i Ä‘áº¹p nÄƒm 2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/banner.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bÃ­ kÃ­p mua sim sá»‘ Ä‘áº¹p mobifone giÃ¡ ráº» TPHCM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cac con so.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cam-ket hai long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/chá»�n sim vinaphone 10 sá»‘ giÃ¡ ráº».jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dau-so-08-vinaphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/economy-tongkhosimvn_com.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/googleplus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hinh-thuc-thanh-toan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images (6).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/Service-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/Untitled.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/b1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/b2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/banner11111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/banner1111112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/banner333.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/hotlinebottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/icon-li-ns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/icon-sp-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/icon-sp-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/icon-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/image/datmua1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/image/icon-news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/image/icon_ds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/image/li-a-simcard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/image/nuttim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/image/timns_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/images (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/images (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/images (8).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/li-a-simcard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/logo_stsodep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/mang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/phone0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/phone_w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/tsa_giam_gia2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/tÃ¡ÂºÂ£i xuÃ¡Â»â€˜ng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/goi-nhan-tin-noi-mang-mobifone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/khuyen-mai-50-the-nap-mobifone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/khuyen-mai-mobifone-tang-100-data-ngay-11-6-12-6-768x571.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/khuyen-mai-mobifone-tang-50-the-nap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/km-nap-the-truc-tuyen-mobifone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/mobifone-km-nap-the-truc-tuyen-ngay-10-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/mobifone-km-nap-the-truc-tuyen-ngay-24-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/mobifone-km-nap-tien-truc-tuyen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/sim-cay-khe-mobifone-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/sim-cay-khe-mobifone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/sim-tam-mobifone-768x432.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/mobi/xem-copa-america-2016-voi-cac-goi-cuoc-3g-mobifone-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/viettel/gÃƒÂ³i MI5N VIETTEL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/viettel/hoa-mang-sim-086-viettel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/viettel/khuyen-mai-doi-tien-viettel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/viettel/khuyen-mai-hoa-mang-tra-sau-viettel-62016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/viettel/khuyen-mai-viettel-16-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/vina/cropped-Poster-1-1200x1338.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/vina/goi-cuoc-t20-vinaphone-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/vina/khuyen-mai-50-vinaphone-1706.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/vina/khuyen-mai-vinaphone-10-6-2016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/vina/khuyen-mai-vinaphone-100-ngay-07-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/vina/khuyen-mai-vinaphone-ngay-26-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/km/vina/vinaphone-khuyen-mai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/livechat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/logo-nha-mang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/loi-ich-sim-ngu-quy-10-so.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mobifone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/new.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nganhang/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nganhang/Untitled-1[1].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nganhang/acb[1].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nganhang/agribank[1].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nganhang/bidv[1].gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nganhang/card-vibank[1].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nganhang/donga[1].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nganhang/sacombank[1].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nganhang/techcombank[1].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nganhang/vietcombank[1].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sim sá»‘ Ä‘áº¹p lÃ  gÃ¬.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sim tá»© quÃ½ thá»ƒ hiá»‡n Ä‘áº³ng cáº¥p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sim3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sim4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/simdep24h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/simdep24h_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/simdep24h_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/simdep24h_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tÃ¡ÂºÂ£i xuÃ¡Â»â€˜ng (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tÃ¡ÂºÂ£i xuÃ¡Â»â€˜ng (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/zalo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Ã� nghÄ©a cá»§a sim sá»‘ Ä‘áº¹p phong thá»§y há»£p tuá»•i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Ã� nghÄ©a cá»§a viá»‡c lá»±a chá»�n sim Ä‘iá»‡n thoáº¡i Ä‘áº¹p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Ä�Äƒng kÃ½ thÃ´ng tin cÃ¡ nhÃ¢n chi tiáº¿t khi kÃ­ch hoáº¡t sim.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Ä�áº·t mua sim theo yÃªu cáº§u.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Ä�á»‹a chá»‰ bÃ¡n sim sá»‘ Ä‘áº¹p Vinaphone uy tÃ­n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Ä�á»‹a chá»‰ mua sim sá»‘ Ä‘áº¹p uy tÃ­n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dh.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/FhHRx.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/arrow-config.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/avatar-chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner.png.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner.png.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_panel_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_panel_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/btn_datmua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cam_sim_dep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/h4icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/header.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hotline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon_loaisim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/km.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/li_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logosimdep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_space.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/network/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/network/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/network/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/network/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/network/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/new_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/panel-xanh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/panel_body_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/panel_chontheoloai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/panel_footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/panel_khuyenmai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/panel_timkiem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/panel_xanh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phongthuy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/search_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/search_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/search_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/search_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/searchbuttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/searchbuttom_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/searchsim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sim-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sim-20_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sim-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sim_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/simdep24h_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/simdep24h_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/spritestlvn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thuesimvip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thuesimvip.png.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/timbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/timkiem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/totop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/googleplus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/install.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcdomain" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/license/dataviettel_license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locsim.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lumen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/cus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/city.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/cod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/cron.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/css.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/doi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/editable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/giaodien.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/home.php.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/khuyenmai.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/memplush.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/neworder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/ordered.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/simhot.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/sitemap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/smsapi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/sodep.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/tintuc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/toggle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/city.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/cod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/css.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/doi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/editable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/giaodien.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/khuyenmai.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/memplush.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/neworder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/ordered.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/sitemap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/smsapi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/sodep.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/toggle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules1/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_mode/cus_header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_model/cus_header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notfound.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simkm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/colorpicker/css/bootstrap-colorpicker-plus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/colorpicker/css/bootstrap-colorpicker-plus.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/colorpicker/js/bootstrap-colorpicker-plus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/colorpicker/js/bootstrap-colorpicker-plus.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/fonts/stvfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/fonts/stvfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/fonts/stvfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/fonts/stvfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/ie7/ie7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/ie7/ie7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvfont/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/app/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/app/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/app/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/app/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/box/chontheodauso.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/box/donhang.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/box/menu1.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/box/nhomtin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/box/none.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/box/search_none_xs1.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/box/timsimnamsinh.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/box/timtheophongthuy.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/checksim.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/cod.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/chang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/chosen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_1a95u7dvflggc04ccogccg888kk8g0o.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_1tiwsw86q0v4kws080o8sgsw0cwwoco.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_219ly4dbc1fogoswswcw80k0ko8k8s8.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_2736xaf1lbokcccc0sgw0sccsw8w4c.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_2bsux5parcpwkk040s04o84os88ckk8.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_2j3win6bbksggocsswkso0800ooow0g.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_2v4r8elni6yoowc00s88c0k88s040go.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_31x7vz779v0gwos0ggscwcg4c4wc4w4.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_382qjm8ymekgc0w84w4wos08ssko88o.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_3cs4aodspdyco8kk8c04c88so84cgsc.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_3hadrmjwb4ys4scks04g0gk80c8ogw0.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_4cb3264a3318fc0ac9c4e2130793f0c5fa2b35fd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_4g43pa08k8aogs0gggso404wkow4gsk.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_4js819jc16w4kso0kg08g8co880ko80.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_4mam24zoo8oww8s80804so8c0880gcg.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_4negajynjbi80kokwkcwkwksk0gwowg.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_51bc45773a780b6315413a7a756359ba485ca30f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_522pxltizugwgcs8gcwskcokscg44ok.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_577298b9456f92299afbfa212ab8ebedeb631328.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_594f0a25171c2bc4fe122a27432901f5b7ff3b1c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_5f9564a431a6bd6ec7b9f4a4f3ca0be5276a2fcb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_7ghio0gd08sgcw80w4gkg8s0o0g4w88.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_893npxthpts008sw0wgksk0o4sowk8c.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_8b158e8628ff68ec7a64163254d127c42ed8fe42.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_8ba9329864963b407320d0b07273b9ef692aea54.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_8ygldbs2l4gs8s4448o4ccoo8s84s88.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_93c4a8af45c0o40s8k440gwosswk888.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_9429nog2ec4cggcg4cw4s4kcowwcgok.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_9a728b79115a641fdefd12d1cc1d00d8.list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_9oa0z3fcvd448sg48s00k8kc80k8k0c.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_9okxthtfp68sg8ggk4004ws08oogg08.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_9uomeqrnxag4wss404gso84wso0cksk.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_a5ftgi5hig0gwc0kso80s0scgkskssg.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_admhekaz97kgk08cwgg004c4k0cko4.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_aeil0d1ll68s8cco0kwsocwok4ksk4s.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_b9yzxcy6yrk0w0o0kgg4s0sggws4wss.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_bn0s2xyk0tw8wg04c088s8sg044gsgk.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_c4qfged2gbsows0k4s8s4wowkwc0kko.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_c727680e828e322b6caea6aa1b0d9ace41253f80.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_c7abaqdxwg84gsk8kwg4w040ocos4co.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_csucygnd3zwcswco880kwsckc8kgwo8.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_ctpgixuw6pcsw40w848sk84w0soc000.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_dn25q38l8pw0c4ossokk0wwckwgcgow.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_dus5wpqp8g008kkcc080w4og8008g4w.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_ea641eab676651746d39558809f4fe71d2e48f2c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_ehv6eqh3ds84ggws84c8c8ss8k08gg0.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_evw8vhngo5c0c8wwcookskswcwwg4c8.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_eytyoac0dm8s4ksgok8cw0cgk04og0g.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_f1e0lb63wiogkcwg4cokgw0ckoo80c4.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_f7e79b967122043bde17f943b5d9e48ad42bb605.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_f809eszuxzsccog84gc0cwsok4gs4c4.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_fd69kpc4u1c8wc4oc48ow4go0wko4sg.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_hpsxu5tdtugc0c0g8c0o0os0wwg0gkg.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_hz67nmnr0m0ccgk8ko8wkgg0wcws480.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_imlgf4r2l9ko48g8o04wg8o0so0gk88.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_iuu39npy5o8w04k4kgoc0ks0kkskgcs.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_j084euytvn4sscksc880k4g840sksk4.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_j5sgo4geoxkww0cw8cc0okks8ocwk8w.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_jvtzyrrl1hc408s4ck4ccs88sw8gck8.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_k0jgdwgn980skcsw40gcsgok8wsogos.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_kektst8qgm8gwkcg0wgk84w48oocgws.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_kokj5nofrz4kos4scgccc8kkos8g0k4.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_l4fz21xlo80kkgwwcwwg0844k4goc0s.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_lilmf0wrqo0wcw0owsw8ww8ssg84ww4.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_lk5yjz5pveowk04koogwkoogs8c0oc8.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_mpx1u6l3j3ks0cw8kw0ksgwwskcs8k0.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_n1bszjxi8sg0gw0g8kgk00g080kcg8s.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_n771bwt3zv4c08o84g0cgwkw0skwg4s.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_nw5472vbo8gsg4gkow8kocso0co4cow.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_p69ks6vnqw0kgkgswgkcscc4o0s040w.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_q6abx8vyfpwso08ogk48swg0844gcs8.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_qba137tkyxw48c8o8sskcg48c0o4ogc.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_r1ic0x8xu28sk4kgck48w80ogok84ks.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_sjic06d73lwkgwo8wok8k0g4oogso8c.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_t475ikzghassgs8gw04gw40gsk80c4g.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_t68yva83rdwwssccsoo48s4cs4gg084.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_tjnxu1qw8zk0wo4gs0cw44kwo0ssows.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/lessphp_xkff47gp85c0cwg88gkoswkcww0s0k.lesscache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/demo-files/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/demo-files/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/easymenu/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/easymenu/images/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/easymenu/images/arrow-down1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/easymenu/images/arrow-down2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/easymenu/images/arrow-right1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/easymenu/images/arrow-right2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/easymenu/images/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/easymenu/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/easymenu/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/easymenu/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/easymenu/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fix.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fixcss.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fixcss.less2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fixstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/stvfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/stvfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/stvfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/stvfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/g.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/hotline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/hover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/ie7/ie7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/ie7/ie7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/images/mang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/images/mobilelogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/images/nguhanh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/img/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/img/googleplus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/img/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/img/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/jscolor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less.php/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less.php/Less.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less.php/Version.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/.csscomb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/.csslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/alerts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/badges.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/bootstrap.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/breadcrumbs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/button-groups.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/carousel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/close.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/code.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/component-animations.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/dropdowns.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/forms.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/glyphicons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/input-groups.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/jumbotron.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/labels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/list-group.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/media.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/alerts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/background-variant.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/border-radius.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/center-block.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/clearfix.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/forms.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/gradients.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/grid-framework.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/hide-text.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/image.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/labels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/list-group.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/nav-divider.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/nav-vertical-align.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/opacity.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/pagination.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/panels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/progress-bar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/reset-filter.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/reset-text.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/resize.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/responsive-visibility.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/size.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/stv.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/tab-focus.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/table-row.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/text-emphasis.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/text-overflow.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/mixins/vendor-prefixes.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/modals.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/navbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/navmenu.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/navs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/normalize.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/pager.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/pagination.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/panels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/popovers.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/print.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/progress-bars.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/responsive-embed.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/responsive-utilities.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/scaffolding.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/tables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/thumbnails.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/tooltip.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/type.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/utilities.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/less/wells.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/mega-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/megamenu.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/menu.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/menu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/my.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/mycolor.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/mycolorok.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/myfonts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/oss-credit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/pkgindex.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/screen.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/sites.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/social-likes_flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/spritestlvn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/cerulean/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/cerulean/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/cerulean/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/cosmo/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/cosmo/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/cosmo/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/cyborg/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/cyborg/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/cyborg/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/darkly/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/darkly/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/darkly/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/flatly/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/flatly/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/flatly/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/journal/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/journal/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/journal/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/lumen/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/lumen/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/lumen/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/mixin.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/paper/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/paper/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/paper/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/readable/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/readable/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/readable/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/sandstone/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/sandstone/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/sandstone/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/simplex/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/simplex/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/simplex/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/slate/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/slate/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/slate/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/spacelab/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/spacelab/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/spacelab/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/superhero/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/superhero/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/superhero/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/united/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/united/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/united/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/yeti/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/yeti/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style/yeti/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/svg/sbg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/footer.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/giaodien.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/header.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/home.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/home.view.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images.71E3/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images.71E3/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images.71E3/menu_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images.71E3/mobilelogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/bg_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/bg_panel_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/bg_panel_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/btn_datmua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/cam_sim_dep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/icon_loaisim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/menu_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/menu_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/menu_space.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/new_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/panel_body_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/panel_chontheoloai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/panel_footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/panel_timkiem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/right_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/sbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/search_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/search_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/search_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/sim_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/simdep24h_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/simdep24h_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/sodep.vn(5)_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/thuesimvip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/tongkhosim.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/BootSideMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/java.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/js.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/menu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/min.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/social-likes.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/locsim.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/menu.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/neworder.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/nosim.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ordered.done.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ordered.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ordered.mycart.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/page.view.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/print.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/search.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/search_box.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/seo.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/simhot.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/sodep.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/table_body.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/tbody.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/tintuc.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/tintuc_right.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/user.changeinfo.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/user.facebook.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/user.login.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/user.reg.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/box/chontheodauso.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/box/donhang.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/box/menu1.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/box/nhomtin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/box/none.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/box/search_none_xs1.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/box/timsimnamsinh.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/box/timtheophongthuy.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/cod.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/chosen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/css.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/easymenu/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/easymenu/images/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/easymenu/images/arrow-down1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/easymenu/images/arrow-down2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/easymenu/images/arrow-right1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/easymenu/images/arrow-right2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/easymenu/images/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/easymenu/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/easymenu/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/easymenu/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/easymenu/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/g.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/hotline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/hover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/img/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/img/googleplus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/img/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/img/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/mega-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/menu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/oss-credit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/pkgindex.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/sites.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/social-likes_flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/cerulean/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/cerulean/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/cerulean/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/cosmo/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/cosmo/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/cosmo/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/cyborg/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/cyborg/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/cyborg/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/darkly/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/darkly/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/darkly/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/flatly/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/flatly/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/flatly/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/journal/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/journal/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/journal/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/lumen/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/lumen/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/lumen/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/mixin.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/paper/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/paper/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/paper/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/readable/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/readable/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/readable/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/sandstone/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/sandstone/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/sandstone/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/simplex/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/simplex/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/simplex/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/slate/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/slate/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/slate/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/spacelab/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/spacelab/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/spacelab/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/superhero/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/superhero/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/superhero/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/united/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/united/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/united/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/yeti/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/yeti/bootswatch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style/yeti/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/footer.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/giaodien.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/header.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/home.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/home.view.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/images/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/images/sbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/js/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/js/java.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/js/js.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/js/min.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/js/social-likes.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/menu.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/neworder.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/nosim.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/ordered.done.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/ordered.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/ordered.mycart.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/page.view.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/print.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/search.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/search_box.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/sodep.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/table_body.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/user.changeinfo.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/user.facebook.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/user.login.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1/user.reg.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/0d0b4fc5ed1a46180bb0e1490dafd5062b2a3c03.file.sodep.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/18433f041852ff22350279f85f36911093c28ada.file.tintuc.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/19255f5ad824f5ae067a0147275008ed31e2e996.file.tintuc_right.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/22b8a23c541f4cadfb24d956b9921dfc420ea259.file.neworder.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/45a00070d849914bebe20303fdd460096461796d.file.seo.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/45c5222a8734e57f785bab15942641f08e34dcda.file.simhot.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/61fc2bc397c5e320d3d6f2c5319d9a3f39d6d112.file.locsim.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/6a382c752879510a09eb8d8f174173c3b6510e4a.file.home.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/6c6b928468d1618dfdaa9cff070e01b329d15688.file.page.view.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/81c8e029ae0d4473d7b6bfd2214c9e502b7669e5.file.ordered.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/8f6d91c09f09c2218bffc17c45e422eed0d89370.file.search.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/a23444457001dfc31ee65c1b110153a140818db5.file.header.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/a9a9830cf26d263d420c2b92835ac2a12a2da2bc.file.tbody.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/e431c2dbd76db413a5886ce25cd1f597212db065.file.print.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/e7865e822bd715a71a028253fad5e48e067c5c0b.file.footer.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/f97c9a8552de4aca4b949c7682cf84649f90d122.file.search_box.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_c/fe1d903e8163334225310ce294c5d02cb3c07ee4.file.ordered.done.htm.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +1253,19 @@
   <component name="PhpServers">
     <servers />
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/simdepthanhcong.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
+        <option value="$PROJECT_DIR$/.idea/webServers.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="410" />
     <option name="y" value="35" />
@@ -32,10 +1278,21 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="simdepthanhcong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simdepthanhcong" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -65,22 +1322,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575440350674</updated>
-      <workItem from="1575440351777" duration="81000" />
+      <workItem from="1575440351777" duration="727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81000" />
+    <option name="totallyTimeSpent" value="727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15565032" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15565032" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4978678" weight="0.30888888" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4978678" visible="true" weight="0.30888888" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026652" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" />
@@ -91,7 +1348,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49733475" visible="true" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49733475" />
       <window_info active="true" anchor="bottom" id="REST Client" order="13" visible="true" weight="0.33888888" />
       <window_info anchor="right" id="Google Cloud Storage" show_stripe_button="false" />
       <window_info anchor="right" id="Kubernetes Explorer" />
