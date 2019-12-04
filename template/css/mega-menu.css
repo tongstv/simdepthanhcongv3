@@ -1,0 +1,100 @@
+
+@media (min-width:1024px)
+{
+.mega-menu {
+  padding: 5px 0px ! important;
+  width: 400px;
+  border-radius: 0;
+  margin-top: 0px;
+}
+
+.mega-menu li {
+  display: inline-block;
+  float: left;
+  font-size: 13px;
+  padding: 3px 0px;
+  width: 100%;
+}
+
+.mega-menu li.mega-menu-column {
+  margin-right: 10px;
+  width: 180px;
+}
+
+.mega-menu .nav-header {
+  padding: 0 !important;
+  margin-bottom: 0px;
+  display: inline-block;
+  width: 100%;
+
+}
+
+.mega-menu img { padding-bottom: 0px; }
+
+/* Disable Toggle style
+********************************/  
+
+/* Dropdown Toggle on style */
+
+
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  background: inherit; /* Set to inherit when using mouse hover to open dropdown */
+  color: inherit;
+}
+
+/* Toggle off style */
+
+
+
+.navbar .nav li.dropdown.open.active > .dropdown-toggle,
+ .navbar .nav > li.dropdown > a:focus {
+  background: inherit;
+  color: inherit;
+}
+
+/* Toggle hover */
+
+
+
+.navbar .nav li.dropdown > .dropdown-toggle:hover,
+ .navbar .nav li.dropdown.open > .dropdown-toggle:hover { background-color: white; color: black; }
+
+/* Toggle caret*/
+
+
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret { border-bottom-color:;
+ border-top-color:;
+}
+
+/* Toggle caret hover */
+
+
+
+.navbar .nav li.dropdown > a:hover .caret,
+ .navbar .nav li.dropdown > a:focus .caret {
+  border-bottom-color: #333;
+  border-top-color: #333;
+}
+
+/* Toggle caret active */
+
+
+
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+ .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+ .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-bottom-color: #333;
+  border-top-color: #333;
+}
+
+/* Hover style
+********************************/ 
+
+
+
+
+}

@@ -1,0 +1,356 @@
+<?php
+/**
+ * @author stv.vn
+ * @copyright 2014
+ */
+class sitemap extends Smarty
+{
+    function index()
+    {
+    $domain=str_replace("www.","",$_SERVER["HTTP_HOST"]);
+    
+    $sitemap='<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://'.$domain.'/</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tu-quy/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ngu-quy/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-luc-quy/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-loc-phat/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-than-tai/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tien-don/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tien-doi/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/tam-hoa-don/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/tam-hoa-kep/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-kep/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-lap/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-doi/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ganh/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-dao/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-dac-biet/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-ong-dia/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/dau-so-co/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-nam-sinh/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ngay-thang-nam-sinh/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-hai/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-ba/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-bon/VinaPhone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tu-quy/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ngu-quy/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-luc-quy/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-loc-phat/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-than-tai/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tien-don/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tien-doi/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/tam-hoa-don/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/tam-hoa-kep/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-kep/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-lap/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-doi/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ganh/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-dao/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-dac-biet/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-ong-dia/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/dau-so-co/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-nam-sinh/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ngay-thang-nam-sinh/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-hai/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-ba/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-bon/MobiFone.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tu-quy/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ngu-quy/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-luc-quy/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-loc-phat/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-than-tai/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tien-don/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tien-doi/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/tam-hoa-don/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/tam-hoa-kep/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-kep/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-lap/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-doi/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ganh/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-dao/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-dac-biet/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-ong-dia/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/dau-so-co/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-nam-sinh/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ngay-thang-nam-sinh/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-hai/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-ba/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-bon/VietTel.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tu-quy/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ngu-quy/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-luc-quy/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-loc-phat/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-than-tai/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tien-don/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tien-doi/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/tam-hoa-don/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/tam-hoa-kep/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-kep/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-lap/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-doi/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ganh/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-dao/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-dac-biet/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-ong-dia/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/dau-so-co/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-nam-sinh/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ngay-thang-nam-sinh/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-hai/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-ba/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-bon/VietNamobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tu-quy/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ngu-quy/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-luc-quy/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-loc-phat/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-than-tai/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tien-don/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-tien-doi/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/tam-hoa-don/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/tam-hoa-kep/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-kep/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-lap/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-doi/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ganh/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-dao/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-dac-biet/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/so-ong-dia/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/dau-so-co/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-nam-sinh/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-ngay-thang-nam-sinh/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-hai/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-ba/Gmobile.html</loc>
+</url>
+<url>
+  <loc>http://'.$domain.'/sim-taxi-bon/Gmobile.html</loc>
+</url>
+
+</urlset>';
+header('Content-Type: application/xml; charset=utf-8');
+echo $sitemap;
+}
+}

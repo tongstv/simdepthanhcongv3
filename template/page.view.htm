@@ -1,0 +1,46 @@
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h1 class="panel-title">{if isset($page_title)}{$page_title}{/if}</h1>
+    </div>
+    <div class="panel-body">
+        <div class="table-condensed">
+
+            {if isset($page_detail)} {$page_detail} {/if}
+
+        </div>
+    </div>
+</div>
+
+{if isset($more)}
+<div class="panel panel-success">
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="panel panel-success">
+        <div class="fb-like" data-href="{$thisurl}" data-layout="standard" data-action="like" data-size="small"
+             data-show-faces="true" data-share="true"></div>
+        <div class="panel-heading">
+            <h2 class="panel-title">Tin liên quan</h2>
+        </div>
+        <div class="panel-body">
+            <ul>
+
+                {section name=d loop=$more}
+                {$row=$more[d]}
+                <li style="text-align: left;">
+                    <a href="/p/{$row.page_url}" style="color: black">{$row.page_title}</a>
+                </li>
+                {/section}
+
+
+            </ul>
+        </div>
+    </div>
+</div>
+    {/if}
+    {include file='seo.htm'}

@@ -1,0 +1,187 @@
+<link rel="stylesheet" href="/apps/css/chosen.css?s=999">
+<script src="/apps/js/jquery.min.js?d=9999"></script>
+<script src="/apps/js/chosen.js?s=000"></script>
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h1 class="panel-title" style="font-size: 10px;">Đặt mua sim {$data[0].sim1} giá gốc rẻ nhất thị trường</h1>
+    </div>
+    <div class="panel-body">
+        <form class="form-horizontal" method="POST" id="ordered" action="index.php?do=ordered.done"
+              onsubmit="return checkorder()">
+            <table class="table table-hover table-condensed table-bordered">
+                <!-- <thead>
+                <tr>
+                 <th class="active text-center col-md-1">STT</th>
+                  <th class="active text-center">Số sim</th>
+                   <th class="active"></th>
+                   <th class="active"></th>
+
+                </tr>
+                </thead> -->
+
+                {section name=d loop=$data}
+                {$row=$data[d]}
+
+                <tr>
+
+                    <td class="text-center"> {$smarty.section.d.index+1}</td>
+                    <td style="vertical-align: baseline;">
+                        <input type="hidden" name="simdlx[{$row.sim1}]" value="{$row.simdl}"/>
+                        <input type="hidden" name="sim[{$row.sim1}]" value="{($row.giaban*1000000)}"/>
+                        <div>Số sim: <strong style="font-size: 22px; color: gold;">{$row.sim1}</strong></div>
+                        <div>Giá bán: <strong style="font-size: 17px; color: gold;">{($row.giaban*1000000)|number_format}</strong>
+                            <sup>vnđ</sup></div>
+                        <div>({$row.doctien})</div>
+
+                    </td>
+                    <td>
+
+
+                        <img width="200" class="img-responsive" src="{($row.giaban*1000000)}/{$row.sim1}.jpg"
+                             alt="sim {$row.sim1}"/>
+
+                    </td>
+                    <td class="text-center"><a href="javascript://" class="delcart" data-sim="{$row.sim2}"> <i
+                            class="glyphicon glyphicon-trash text-danger"></i></a></td>
+
+                </tr>
+
+
+                {/section}
+                {if isset($mycart) }
+                <tr>
+                    <td colspan="4" class="active">
+                        {if isset($tt)}
+                        <h5 class="pull-right">
+                            Tổng tiền: <span id="total">{($tt*1000000)|number_format}</span> VNĐ
+                        </h5>
+                        {/if}
+                    </td>
+                </tr>
+                {/if}
+            </table>
+
+            <div class="clearfix"></div>
+            <br/>
+            <div class="row">
+                <div class="col-md-12">
+
+
+                    <div class="form-group">
+                        <label class="control-label col-md-4 col-xs-3">Họ và tên: <span class="red">(*)</span></label>
+                        <div class="col-md-7 col-xs-9">
+                            <input name="fullname" class="form-control"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-4 col-xs-3">Điện thoại: <span class="red">(*)</span></label>
+                        <div class="col-md-7 col-xs-9">
+                            <input name="phone" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-4 col-xs-3">Địa chỉ: <span class="red">(*)</span></label>
+
+                        <div class="col-md-7 col-xs-9">
+
+                            <textarea name="address" class="form-control "></textarea>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group hidden-xs">
+                        <label class="control-label col-md-4 col-xs-3">Tỉnh/TP: <span
+                                class="red hidden-xs">(*)</span></label>
+                        <div class="col-md-7 col-xs-9">
+                            <input type="hidden" name="city"/>
+                            <input type="hidden" name="qh"/>
+                            <input type="hidden" name="px"/>
+                            <select id="city" class="form-control city">
+                                <option value="0">Chọn Tỉnh/TP</option>
+                                {html_options options=$city}
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group form-group-sm">
+                        <label class="control-label col-md-4 col-xs-3">Ghi chú:</label>
+                        <div class="col-md-7 col-xs-9">
+                            <textarea class="form-control" name="note" style="height: 50px;"></textarea>
+
+                        </div>
+                    </div>
+
+
+                    <div class="form-group form-group-sm">
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <button name="submit" class="btn btn-success">Đặt mua</button>
+                                <button type="reset" class="btn btn-default">Làm lại</button>
+                            </div>
+                        </div>
+                    </div>
+
+        </form>
+    </div>
+
+
+</div>
+
+</div>
+</div>
+
+<div class="panel ">
+    <div class="panel-heading">
+        <h2>{$datmua.title}</h2>
+    </div>
+    <div class="panel-body">
+        {$datmua.detail}
+    </div>
+</div>
+{literal}
+<script>
+    $(function () {
+
+        $("#city").change(function () {
+            index = $(this).find('option:selected').val();
+            $(".district").remove();
+            $(".se1").remove();
+            $.get('{$thisdomain}/index.php?ajax=city.getdistrict&id=' + index).done(function (data) {
+
+                $("#city").parents('.form-group').after(data);
+
+            });
+
+            city = $("#city").find('option:selected').text();
+            $("input[name='city']").val(city);
+
+        });
+        $(document).on('change', '.district', function () {
+            index = $(this).find('option:selected').val();
+            $(".se2").remove();
+            $.get('{$thisdomain}/index.php?ajax=city.getward&id=' + index).done(function (data) {
+
+                $(".district").parents('.form-group').after(data);
+
+
+            });
+            qh = $(".se1").find('option:selected').text();
+            $("input[name='qh']").val(qh);
+        });
+
+
+        $(document).on('change', '.ward', function () {
+
+            px = $(".se2").find('option:selected').text();
+            $("input[name='px']").val(px);
+        });
+
+
+        $(".city").chosen({search_contains: true, width: "100%"});
+    })
+
+</script>
+
+{/literal}

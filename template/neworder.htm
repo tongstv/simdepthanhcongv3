@@ -1,0 +1,12 @@
+{section name=d loop=$data}
+{$row=$data[d]}
+
+<div class="newdh">
+<strong style="color: #000;">{$row.sosim}</strong>
+<p class="list-group-item-text font-11">{$row.date_order|date_format: 'H:i:s d/m/Y'}</p>
+<p class="list-group-item-text font-13">{$row.fullname}</p>
+
+</div>
+<div class="clearfix"></div>
+{/section}
+

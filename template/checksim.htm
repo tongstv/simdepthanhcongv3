@@ -1,0 +1,180 @@
+
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <h2 class="panel-title">Check sim</h2>
+  </div>
+  <div class="panel-body">
+
+ 
+    <div class="row">
+    
+    
+    <div class="col-md-12">
+    
+      <div class="row">
+    
+<div class="col-md-1"></div>
+    <div class="col-md-5 ">
+    
+    <form class="form-inline" method="POST">
+    
+    <div class="form-group">
+
+    <input name="checksim" style="font-size: 18px;" class="form-control input-lg" value="{if isset($smarty.post.checksim)}{$smarty.post.checksim}{/if}" placeholder="Nhập số sim cần check" />
+
+    </div>
+    <div class="form-group">
+    <div class="col-md-3">
+    <button name="submit" class="btn btn-lg btn-success">Check sim</button>
+    </div>
+    </div>
+    <div class="form-group">
+    <div class="col-md-3"> <select name="dl" class="form-control center-block chosen" style="width: 300px;">
+ 
+ <option value="0">Tất cả</option>
+ {html_options values =$option_key output=$option_name selected=$selected}
+ </select></div>
+    </div>
+    
+    </form>
+    
+    
+    </div>
+    <div class="col-md-4">
+    {if isset($check) AND $check==true}
+    <form class="form-horizontal">
+    
+    <div class="form-group form-group-sm">
+    <label class="control-label col-md-4">Đại lý báo giữ:</label>
+    <div class="col-md-6 editable"  data-name="lichsuchecksim|check_giusim|id" data-pk="{$checkid}">
+   
+    </div>
+    </div>
+    
+    <div class="form-group form-group-sm">
+    <label class="control-label col-md-4">Ghi chú:</label>
+    <div class="col-md-6 editable" data-name="lichsuchecksim|check_note|id" data-pk="{$checkid}">
+    
+    </div>
+    </div>
+    <div class="form-group form-group-sm">
+   
+    <a class="btn btn-sm btn-success pull-right ajax" href="index.php?ajax=checksim.smslist">Nhắn list số</a>
+    </div>
+    </form>
+    {/if}
+    </div>
+    
+    </div>
+       {if isset($check)}
+    {if $check==true}
+    <table class="table table-hover table-condensed" id="tablesort">
+    <thead>
+    <tr>
+    <th class="active center">STT</th>
+    <th class="active">Số sim</th>
+    <th class="active">Giá bán</th>
+    <th class="active">Giá nhập</th>
+     <th class="active">HH</th>
+      <th class="active">Giá thu</th>
+       <th class="active">Lãi</th>
+       <th class="active">Điện thoại</th>
+        <th class="active">Đại lý</th>
+        <th class="active noSort col-md-2"></th>
+        
+    </thead>
+    </tr>
+    {section name=d loop=$data}
+    {$row=$data[d]}
+    <tr>
+    <td class="center">{$row.stt}</td>
+    
+    <td><strong>{$row.sim1}</strong></td>
+    <td><strong>{$row.giaban|number_format}</strong></td>
+    
+     <td>{$row.gianhap|number_format}</td>
+     <td>{$row.hh}%</td>
+     <td>{$row.giathu|number_format}</td>
+     <td>{$row.lai|number_format}</td>
+     
+     <td>{$row.mobile}</td>
+     <td style="max-width: 250px;overflow: auto;">{$row.fullname}
+     
+     {if isset($row.last_update)}<strong>{$row.last_update|date_format:'d/m/Y H:i'}</strong>{/if}
+     </td>
+     
+    <td>
+    <div class="btn-group">
+    <a href="index.php?ajax=checksim.sms&sosim={$row.sim1}&giatien={$row.gianhap}&mobile={$row.mobile}" class="ajax btn btn-sm btn-info">SMS</a>
+    <a href="../{$row.sim2}.html" target="_blank" class="btn btn-sm btn-success">Đặt mua</a>
+    <a href="index.php?ajax=daily.dangsim&dlid={$row.dlid}" title="Đăng sim: {$row.fullname}" class="frame btn btn-sm btn-warning">Đăng</a>
+    <a class="btn btn-sm btn-default" target="_search" href="https://mail.google.com/mail/u/0/#advanced-search/from={$row.email}&subset=all&within=1d&sizeoperator=s_sl&sizeunit=s_smb">(E)</a>
+    <a class="ajax btn btn-sm btn-default" title="lưu công nợ" href="index.php?ajax=checksim.luucongno&dlid={$row.dlid}&sosim={$row.sim2}">Lưu Công Nợ</a>
+    <a href="index.php?ajax=checksim.del&id={$row.simid}" class="btn btn-sm btn-danger confirm"><i class="glyphicon glyphicon-trash"></i> Xóa</a>
+    <a class="btn btn-sm btn-default frame" href="index.php?ajax=daily.tg&id={$row.dlid}">TG</a>
+    <a class="btn btn-sm btn-default frame" href="index.php?ajax=daily.hh&id={$row.dlid}">HH</a>
+    </div>
+    </td>
+    </tr>
+    {/section}
+    </table>
+      
+    </div>
+
+    {else}
+    
+    <div class="row">
+    
+    <div class="center text-danger" style="margin: 0 auto;"> Số sim <strong>{$sosim}</strong> không có trong cơ sở dữ liệu</div>
+    </div>
+    {/if}
+    {/if}
+    
+  </div>
+</div>
+<div style="height: 300px; overflow: auto;">
+<table class="table table-hover table-bordered table-condensed table-striped">
+       {if isset($lichsucheck)}
+   
+    
+    <thead>
+    <tr>
+        <th class="active">Số sim</th>
+           <th class="active">Thời gian</th>
+              <th class="active">Tài khoản</th>
+                 <th class="active">Đại lý báo giữ</th>
+                  <th class="active">Ghi chú</th>
+    </tr>
+    </thead>
+     {section name =s loop=$lichsucheck}
+    {$r=$lichsucheck[s]}
+    <tr>
+    <td>{$r.check_sim}</td>
+    <td>{$r.check_date|date_format : 'd/m/Y H:i:s'}</td>
+    <td>{$r.check_user}</td>
+    <td class="red"><strong>{$r.check_giusim}</strong></td>
+    <td class="red"><strong>{$r.check_note}</strong></td>
+    </tr>
+    
+     {/section}
+    </table>
+    </div>
+   
+{/if}
+<script src="../js/tablesort.js"></script>
+<script>
+
+$(function(){
+        $(".chosen").chosen({ search_contains: true });
+var theHeaders = {}
+    $(this).find('th.noSort').each(function(i,el){
+        theHeaders[$(this).index()] = { sorter: false };
+    });
+
+$("#tablesort").tablesorter({
+    
+headers: theHeaders
+    
+});
+});
+</script>

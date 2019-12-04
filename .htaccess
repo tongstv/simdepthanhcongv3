@@ -1,0 +1,82 @@
+RewriteEngine on
+
+
+# Chuyen Link Cu Sang Link Moi
+
+
+
+RewriteRule ^([0-9_-]*)tu-quy-giua\.html$  /sim-tu-quy\.html [R=301,L]
+
+RewriteRule ^([0-9_-]*)dat-mua-sim-so-dep-([0-9.]*)\.html$  /$2\.html [R=301,L]
+
+
+RewriteRule ^news-([0-9]*)-(.*)\.html$  / [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteCond %{HTTPS}   off
+RewriteCond %{HTTP_HOST} (www\.)?simdepthanhcong\.com [NC]
+RewriteCond %{REQUEST_URI} !^/index\.php/sync  [NC]
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI}  [R=301,L]
+
+
+RewriteCond %{REQUEST_URI} !^/index\.php
+
+#ErrorDocument 404 /index.php
+ErrorDocument 404 /p/loi-404
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteRule ^khuyen-mai-gian-gia.htm$ index.php?do=khuyenmai [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} (/[^.]*|\.(php|html?|feed|pdf|raw))$ [NC]
+RewriteCond %{REQUEST_URI} !^lib [NC]
+# and the requested path and file doesn't directly match a physical file
+RewriteCond %{REQUEST_FILENAME} !-f
+# and the requested path and file doesn't directly match a physical folder
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^bai-viet-48-y-nghia-cac-con-so-trong-sim-dien-thoai.html$  /p/y-nghia-cac-con-so-trong-sim-dien-thoai [R=301,L]
+RewriteRule ^p\/(.*)$ index.php?do=page.view&page_url=$1 [L]
+RewriteRule ^tin-tuc.html$ index.php?do=tintuc [L]
+
+RewriteRule ^sim-hot.html$ index.php?do=simhot [L]
+
+RewriteRule ^sim-theo-gia/duoi-500-nghin.html$ index.php?do=search&giatu=0&den=500000
+
+RewriteRule ^sim-theo-gia/tu-500-nghin-den-1-trieu.html$ index.php?do=search&giatu=500000&den=1000000
+RewriteRule ^sim-theo-gia/tu-1-trieu-den-3-trieu.html$ index.php?do=search&giatu=1000000&den=3000000
+
+RewriteRule ^sim-theo-gia/tu-3-trieu-den-5-trieu.html$ index.php?do=search&giatu=3000000&den=5000000
+RewriteRule ^sim-theo-gia/tu-5-trieu-den-10-trieu.html$ index.php?do=search&giatu=5000000&den=10000000
+
+
+RewriteRule ^sim-theo-gia/tu-10-trieu-den-50-trieu.html$ index.php?do=search&giatu=10000000&den=50000000
+
+
+RewriteRule ^sim-theo-gia/tu-50-trieu-den-100-trieu.html$ index.php?do=search&giatu=50000000&den=100000000
+
+RewriteRule ^sim-theo-gia/tu-100-trieu-den-200-trieu.html$ index.php?do=search&giatu=100000000&den=200000000
+
+RewriteRule ^sim-theo-gia/tren-200-trieu.html$ index.php?do=sodep&giatu=200000000&den=2000000000000
+
+
+RewriteRule ^tin-tuc/(.*).html$ index.php?do=tintuc&url=$1 [L]
+RewriteRule ^tin-tuc.html$ index.php?do=tintuc&g=9 [L]
+RewriteRule ^tin-tuc-sim-so-dep.html$ index.php?do=tintuc&g=24 [L]
+RewriteRule ^tin-khuyen-mai.html$ index.php?do=tintuc&g=23 [L]
+RewriteRule ^tin-tuc-tong-hop.html$ index.php?do=tintuc&g=9 [L]
+
+RewriteRule ^([0-9]*)\.html$ index.php?do=ordered&sosim=$1 [L]
+
+RewriteRule ^Sim-So-Dep-([A-Za-z-]*)\.html$ index.php?do=sodep&network=$1 [L]
+RewriteRule ^([0-9.]*)/([0-9.]*)\.jpg$ imgget.php?sim=$2&gia=$1 [L]
+
+RewriteRule ^([A-Za-z0-9-]*)\.html$ index.php?do=sodep&type=$1 [L]
+RewriteRule ^([A-Za-z-^/]*)/([A-Za-z-9-]*)\.html$ index.php?do=sodep&type=$1&network=$2 [L]
+
+RewriteRule ^dau-so/([A-Za-z-]*)-([0-9]*)$ index.php?do=search&sim=$2*&notype=1* [L]
+
+RewriteRule ^chon-mang/([A-Za-z-]*)$ index.php?do=search&network=$1&notype=1* [L]
+
+RewriteRule ^chon-mang/([A-Za-z-]*)/dau-so/([0-9]*)$ index.php?do=search&network=$1&sim=$2*&notype=1 [L]
+
+RewriteRule ^chon-mang/([A-Za-z-]*)/dau-so/([0-9]*)/([A-Za-z-9-]*)$ index.php?do=search&network=$1&sim=$2*&dang=$3&notype=1 [L]
+RewriteRule ^mua-sim-trong-gio-hang\.htm$ index.php?do=ordered&cart=yes [L]

@@ -1,0 +1,43 @@
+<div class="panel panel-success" style="text-align: left !important;">
+  <div class="panel-heading">
+    <h1 class="panel-title">Tin tức</h1>
+  </div>
+  <div class="panel-body" style="background-color: #fff !important;">
+
+    {section name=d loop=$data}
+    {$row=$data[d]}
+     <div class="row" style="padding: 25px;">
+
+         <div class="row">
+     <h3><a href="/p/{$row.page_url}"  style="color: #ad0909;margin-left: 10px !important;font-size: 15px">{$row.page_title}</a></h3>
+
+         </div>
+     
+     <div class="row">
+     
+     <div class="col-md-4 col-lg-4">
+     
+    {if isset($row.img)}
+    
+<a href="/p/{$row.page_url}">
+ <div class="img-thumbnail" style="max-height: 90px; overflow: hidden;">
+    {$row.img}
+    </div>
+</a>
+    {else}
+        
+        {/if}
+     </div>
+     
+          <div class="col-md-8 col-lg-8">
+          
+          {$row.page_detail|substr:0:350}..
+          </div>
+     </div>
+     </div>
+    {/section}
+
+  </div>
+</div>
+
+<div class="pagination">{$paging}</div>

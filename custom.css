@@ -1,0 +1,10 @@
+.box-title{
+background: #FFD92C;
+color: #000;
+}
+ul.loaisim > li:hover{
+background: #FFD92C;
+}
+.panel-heading {
+background: #FFD92C;
+}

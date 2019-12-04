@@ -1,0 +1,129 @@
+.box-title{
+	background: #FFD92C !important;
+	color: #000;
+}
+.box-title span{
+	color: #000;
+}
+.box-title > span{
+	padding-left: 0px !important;
+	padding-top: 13px !important;
+    padding-bottom: 13px !important;
+}
+.text{
+	padding-left: 0px !important;
+}
+.icon-ds{
+	background: unset !important;
+}
+ul.loaisim > li:hover{
+	background: #FFD92C !important;
+	color: #000 !important;
+}
+.panel-heading{
+	background-color: #FFD92C !important;
+	color: #000 !important;
+}
+.panel-title span{
+	background: unset !important;
+	padding-left: 0px !important;
+}
+#wrapper > .panel-heading > .panel-title{
+	color: #000 !important;
+}
+.panel-primary > .panel-heading{
+	background: #FFD92C !important;
+	border-color: #FFD92C !important;
+}
+.btn-primary{
+	background-color:#333232!important;
+    border-color:#333232!important;
+}
+.btn-success {
+    color: #ffffff;
+    background-color: #333232 !important;
+    border-color: #333232 !important;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color: #FFD92C !important;
+	color: #000 !important;
+}
+
+.to{
+	color: #000 !important;
+}
+
+.popover{
+	background: #ffffff;
+	border-color: #fff;
+	color: #000;
+}
+.popover-title{
+	background: #000;
+	color: #fff;
+}
+
+.sns-wrap{
+	position: relative;
+	padding: 115px 10px 10px 10px;
+	background: url(data/images/image/timns_bg.png) no-repeat;
+    background-size: cover;
+}
+.sns-text{
+	position: absolute;
+	left: 147px;
+	top: 20px;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 0;
+	font-weight: bold;
+	color: #008dde;
+	text-align: left;
+    line-height: 24px;
+}
+
+.btn-blue{
+	background: #008dde !important;
+	color: #fff !important;
+	border-color: #008dde !important; 
+}
+
+.dn-group select{
+	width: 27%;
+	margin-right: 5px;
+}
+.chatzalo{
+	line-height: 25px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.chatzalo img{
+	width: 41px;
+    border-radius: 126px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+.chatzalo a{
+	position: relative;
+    background: #804d00;
+    color: #fff!important;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 8px 8px 8px 37px;
+    display: block;
+    width: 170px;
+    text-decoration: none !important;
+    margin: auto;
+}
+
+@media screen and (max-width: 992px){
+	.main-page{
+		width: 100% !important;
+	}
+	.right-page{
+		width: 100% !important;
+	}
+}
