@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-04-03 16:39:31
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-17 14:04:03
          compiled from "/usr/local/lib/php/app/adm/templates/dondep.htm" */ ?>
-<?php /*%%SmartyHeaderCode:9009508475ca47f5371ce49-22555117%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14199753685df87de3170222-98329520%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6d8b4a9d908aec51b525697547fab04b41220d42' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/dondep.htm',
-      1 => 1504672596,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9009508475ca47f5371ce49-22555117',
+  'nocache_hash' => '14199753685df87de3170222-98329520',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5ca47f53775436_02750938',
+  'unifunc' => 'content_5df87de320adc8_05095265',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ca47f53775436_02750938')) {function content_5ca47f53775436_02750938($_smarty_tpl) {?><div class="panel panel-success">
+<?php if ($_valid && !is_callable('content_5df87de320adc8_05095265')) {function content_5df87de320adc8_05095265($_smarty_tpl) {?><div class="panel panel-success">
   <div class="panel-heading">
     <h2 class="panel-title">Dọn dẹp và tối ưu database</h2>
   </div>

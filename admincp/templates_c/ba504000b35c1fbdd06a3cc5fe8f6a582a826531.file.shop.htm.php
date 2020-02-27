@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-08-30 08:37:19
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2020-02-13 08:44:57
          compiled from "/usr/local/lib/php/app/adm/templates/shop.htm" */ ?>
-<?php /*%%SmartyHeaderCode:10331898425d687dcf550953-68258258%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18092620465e44aa19e17a02-81045593%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ba504000b35c1fbdd06a3cc5fe8f6a582a826531' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/shop.htm',
-      1 => 1496594825,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10331898425d687dcf550953-68258258',
+  'nocache_hash' => '18092620465e44aa19e17a02-81045593',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5d687dcf5b0d67_53201775',
+  'unifunc' => 'content_5e44aa19f38565_75673818',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5d687dcf5b0d67_53201775')) {function content_5d687dcf5b0d67_53201775($_smarty_tpl) {?><div class="panel panel-success">
+<?php if ($_valid && !is_callable('content_5e44aa19f38565_75673818')) {function content_5e44aa19f38565_75673818($_smarty_tpl) {?><div class="panel panel-success">
   <div class="panel-heading">
     <h2 class="panel-title">Shop ứng dụng trả phí của STV</h2>
   </div>

@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-01-27 17:18:48
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-12 15:59:53
          compiled from "/usr/local/lib/php/app/adm/templates/header.htm" */ ?>
-<?php /*%%SmartyHeaderCode:5927058275bc3ffd5cf9fa3-58911810%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10022432615df20189bf0e05-98187629%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f46dd9d28d8105bda70906cb5abed8d1654245b3' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/header.htm',
-      1 => 1548423192,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5927058275bc3ffd5cf9fa3-58911810',
+  'nocache_hash' => '10022432615df20189bf0e05-98187629',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5bc3ffd5d936d3_28940495',
   'variables' => 
   array (
     'setting' => 0,
@@ -24,8 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'fullname' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_5df20189c637f2_69231630',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5bc3ffd5d936d3_28940495')) {function content_5bc3ffd5d936d3_28940495($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_5df20189c637f2_69231630')) {function content_5df20189c637f2_69231630($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -229,11 +229,7 @@ Xin chào: <?php if (isset($_smarty_tpl->tpl_vars['fullname']->value)) {?> <?php
         </li>
         
         
-         <li>
         
-    
-        <a href="index.php?do=update">Nâng cấp có sẵn   <span class="label label-danger pull-right">New</span></a>
-        </li>
         
         
            <li>
@@ -259,12 +255,7 @@ Xin chào: <?php if (isset($_smarty_tpl->tpl_vars['fullname']->value)) {?> <?php
         </li>
         
         <li class="active">
-        <a href="index.php?do=removesim">Loại bỏ dữ liệu sim <span class="label label-danger pull-right">New</span></a>
-        </li>
-
-
-           <li>
-        <a href="index.php?do=ftpsync">Nhiều máy chủ<span class="label label-danger pull-right">New</span></a> 
+        <a href="index.php?do=removesim">Loại bỏ dữ liệu sim</a> <span class="label label-danger pull-right">New</span></a>
         </li>
         </ul>
 </nav>

@@ -1,3 +1,10 @@
+{if $recommend>0}
+  {include file ='recommend-birthday.htm'}
+{/if}
+
+{if $recommend==-1}
+  {include file ='recommend-birthday1.htm'}
+{/if}
 
 <div class="panel panel-success">
   <div class="panel-heading">
@@ -42,18 +49,7 @@ Số sim
 
 <tfoot>
 <tr>
-<td colspan="6" class="text-center">
-
-
-
-<ul class="pagination pagination-sm">
-
-{$paging}
-
-
-
-
-</ul></td>
+<td colspan="8" class="text-right"><ul class="pagination pagination-sm">{$paging}</ul></td>
 </tr>
 </tfoot>
 </table>

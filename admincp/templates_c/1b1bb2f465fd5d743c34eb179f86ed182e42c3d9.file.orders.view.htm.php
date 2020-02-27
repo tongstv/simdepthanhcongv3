@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-05-18 14:35:41
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-17 08:47:43
          compiled from "/usr/local/lib/php/app/adm/templates/orders.view.htm" */ ?>
-<?php /*%%SmartyHeaderCode:19323045495cdfb5cd171016-09671592%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5680107065df833bf38de64-06461658%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1b1bb2f465fd5d743c34eb179f86ed182e42c3d9' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/orders.view.htm',
-      1 => 1545021266,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '19323045495cdfb5cd171016-09671592',
+  'nocache_hash' => '5680107065df833bf38de64-06461658',
   'function' => 
   array (
   ),
@@ -54,9 +54,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5cdfb5cd31ffe7_87012680',
+  'unifunc' => 'content_5df833bf4d8019_82769280',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5cdfb5cd31ffe7_87012680')) {function content_5cdfb5cd31ffe7_87012680($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/usr/local/lib/php/app/lib/libs/plugins/modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5df833bf4d8019_82769280')) {function content_5df833bf4d8019_82769280($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/usr/local/lib/php/app/lib/libs/plugins/modifier.date_format.php';
 if (!is_callable('smarty_function_html_options')) include '/usr/local/lib/php/app/lib/libs/plugins/function.html_options.php';
 ?><!DOCTYPE html>
 <html lang="vi, en">
@@ -531,12 +531,10 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['d']['last']       = ($_smart
 " />
                            </div>
                         </div>
-                        <div class="form-group form-group-sm ">
-                           <label class="control-label col-xs-4"> đại lý khác thu hộ (đl thứ 3)</label>
+                        <div class="form-group form-group-sm">
+                           <label class="control-label col-xs-4">Nhờ đại lý khác thu hộ</label>
                            <div class="col-xs-6">
-                              <input type="checkbox" name="nhothu" value="1"> <span style="color: red;"> không được click nếu bạn chưa hiểu </span>
-                              
-                              <a href="https://www.youtube.com/watch?v=3_uHxO_7RA4&t=349s" target="_blank"> Xem video hướng dẫn thêm</a>
+                              <input type="checkbox" name="nhothu" value="1">
                            </div>
                         </div>
                         <div class="form-group form-group-sm">

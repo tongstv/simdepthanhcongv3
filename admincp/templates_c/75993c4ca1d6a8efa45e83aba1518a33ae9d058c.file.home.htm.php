@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2018-10-15 09:47:49
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-12 15:59:53
          compiled from "/usr/local/lib/php/app/adm/templates/home.htm" */ ?>
-<?php /*%%SmartyHeaderCode:18731296075bc3ffd5dd3276-74070976%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13774122285df20189c8e6a4-43140953%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '75993c4ca1d6a8efa45e83aba1518a33ae9d058c' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/home.htm',
-      1 => 1522419065,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18731296075bc3ffd5dd3276-74070976',
+  'nocache_hash' => '13774122285df20189c8e6a4-43140953',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5bc3ffd5de6200_71983109',
+  'unifunc' => 'content_5df20189ca65e9_65757005',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5bc3ffd5de6200_71983109')) {function content_5bc3ffd5de6200_71983109($_smarty_tpl) {?><div class="container">
+<?php if ($_valid && !is_callable('content_5df20189ca65e9_65757005')) {function content_5df20189ca65e9_65757005($_smarty_tpl) {?><div class="container">
 <div class="panel panel-success">
   <div class="panel-heading">
     <h2 class="panel-title">Thống kê</h2>

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="1c34d11a-803e-4f22-9312-a3affb924b66" name="f" url="http://115.146.121.214">
-        <fileTransfer host="115.146.121.214" port="21" rootFolder="/domains/simdepthanhcong.com/public_html">
+      <webServer id="1c34d11a-803e-4f22-9312-a3affb924b66" name="f" url="http://103.249.103.47">
+        <fileTransfer host="103.249.103.47" port="22" rootFolder="/home/admin/web/simdepthanhcong.com/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="21" />
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>

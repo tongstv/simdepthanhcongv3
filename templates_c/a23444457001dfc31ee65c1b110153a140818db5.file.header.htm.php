@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-11-07 15:28:54
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-12 11:33:58
          compiled from "template/header.htm" */ ?>
-<?php /*%%SmartyHeaderCode:1388878125dc3d5c6039ae6-54385481%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10640515625df12b554f2b69-40467150%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a23444457001dfc31ee65c1b110153a140818db5' => 
     array (
       0 => 'template/header.htm',
-      1 => 1573058022,
+      1 => 1576125258,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1388878125dc3d5c6039ae6-54385481',
+  'nocache_hash' => '10640515625df12b554f2b69-40467150',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_5df12b55582693_98935436',
   'variables' => 
   array (
     'title' => 0,
@@ -33,10 +35,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'quangcao' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5dc3d5c61c8aa1_62659694',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5dc3d5c61c8aa1_62659694')) {function content_5dc3d5c61c8aa1_62659694($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_5df12b55582693_98935436')) {function content_5df12b55582693_98935436($_smarty_tpl) {?><!DOCTYPE html>
 
 <html lang="vi">
 <head>
@@ -121,8 +121,18 @@ echo $_smarty_tpl->tpl_vars['des']->value;?>
       .menutop a{
 
        font-size: 11px;
-     }   
+     }
+
    }
+       .btn-datmua
+       {
+           background: transparent url("/data/images/image/datmua1.png");
+           width: 93px;
+           height: 32px;
+           display: block;
+           margin: 0 auto;
+           margin-top: 5px;
+       }
  </style>
  <button type="button" class="navbar-toggle rightmenu pull-right">
   <span class="sr-only">Toggle navigation</span>
@@ -348,19 +358,7 @@ echo $_smarty_tpl->tpl_vars['cartcount']->value;
 </div>
 
 
-<div class="row hidden">
 
-  <div class="col-md-6 ">
-
-    <img src="/images/simdep24h_2.jpg" alt="Sim Song Long - Kho Sim Số Đẹp Giá Rẻ Tại Việt Nam" style="width: 100%;height: 165px;" />
-  </div>
-
-
-  <div class="col-md-6 "> 
-
-    <img src="/images/cam_sim_dep.png" alt="Sim Song Long - Kho Sim Số Đẹp Chính Hãng Tại Việt Nam" style="width: 100%;height: 165px;" />
-  </div>
-</div>
 <div class="clearfix"></div>
 
 <div class="row" style="margin-top: 15px !important;">

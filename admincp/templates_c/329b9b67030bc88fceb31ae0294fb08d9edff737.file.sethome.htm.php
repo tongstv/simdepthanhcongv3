@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-01-12 09:43:47
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-14 14:10:53
          compiled from "/usr/local/lib/php/app/adm/templates/sethome.htm" */ ?>
-<?php /*%%SmartyHeaderCode:10460289935bdd7be7b8c615-48688754%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3965596545df48afdc128d0-23126579%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '329b9b67030bc88fceb31ae0294fb08d9edff737' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/sethome.htm',
-      1 => 1543289863,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10460289935bdd7be7b8c615-48688754',
+  'nocache_hash' => '3965596545df48afdc128d0-23126579',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5bdd7be7bf1ce2_18138525',
   'variables' => 
   array (
     'options' => 0,
@@ -28,8 +26,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'maxrow' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_5df48afdc643c5_24366567',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5bdd7be7bf1ce2_18138525')) {function content_5bdd7be7bf1ce2_18138525($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_options')) include '/usr/local/lib/php/app/lib/libs/plugins/function.html_options.php';
+<?php if ($_valid && !is_callable('content_5df48afdc643c5_24366567')) {function content_5df48afdc643c5_24366567($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_options')) include '/usr/local/lib/php/app/lib/libs/plugins/function.html_options.php';
 ?><div class="container">
 <div class="panel panel-success">
   <div class="panel-heading">
@@ -54,7 +54,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <label class="col-sm-3 control-label text-right">Sắp xếp giá tiền</label>
 <div class="col-sm-9"><input type="radio" name="sort" value="DESC" <?php if (isset($_smarty_tpl->tpl_vars['DESC']->value)) {?> checked="checked"<?php }?> />Từ cao -> Thấp | <input type="radio" name="sort" value="ASC" <?php if (isset($_smarty_tpl->tpl_vars['ASC']->value)) {?> checked="checked"<?php }?>  />Từ Thấp -> Cao
 
- | <input type="radio" name="sort" value="random" <?php if (isset($_smarty_tpl->tpl_vars['random']->value)) {?> checked="checked"<?php }?>  />không sắp xếp
+ | <input type="radio" name="sort" value="random" <?php if (isset($_smarty_tpl->tpl_vars['random']->value)) {?> checked="checked"<?php }?>  />Ngẫu nhiên
 </div>
 </div>
 
@@ -70,7 +70,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
 <div class="form-group text-center">
 <button class="btn btn-success" name="save" class="center-block">Lưu cấu hình</button>
-
+<button class="btn btn-danger" name="reupdate" class="center-block">Nâng cấp lại</button>
 </div>
 </form>
 

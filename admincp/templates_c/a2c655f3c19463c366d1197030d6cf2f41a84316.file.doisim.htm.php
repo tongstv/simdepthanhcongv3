@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2018-11-03 17:43:18
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-14 14:10:48
          compiled from "/usr/local/lib/php/app/adm/templates/doisim.htm" */ ?>
-<?php /*%%SmartyHeaderCode:9820960585bdd7bc634b2e2-02512993%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13399661305df48af8a3a486-57352652%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a2c655f3c19463c366d1197030d6cf2f41a84316' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/doisim.htm',
-      1 => 1537169971,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9820960585bdd7bc634b2e2-02512993',
+  'nocache_hash' => '13399661305df48af8a3a486-57352652',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5bdd7bc63a41e9_58046861',
+  'unifunc' => 'content_5df48af8a844c6_60363657',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5bdd7bc63a41e9_58046861')) {function content_5bdd7bc63a41e9_58046861($_smarty_tpl) {?><div class="panel panel-success">
+<?php if ($_valid && !is_callable('content_5df48af8a844c6_60363657')) {function content_5df48af8a844c6_60363657($_smarty_tpl) {?><div class="panel panel-success">
   <div class="panel-heading">
     <h2 class="panel-title">Đổi sim 11 số về 10 số</h2>
   </div>

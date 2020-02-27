@@ -1,8 +1,8 @@
 <?php
-define('DH_SERVER','admin.tongkhosim.com');
-define('DH_DB_USER','tksimcard_admin');
-define('DH_DB_PASS','@hyn12345');
-define('DH_DB_DATABASE','tksimcard_admin');
+define('DH_SERVER', 'admin.tongkhosim.com');
+define('DH_DB_USER', 'tksimcard_admin');
+define('DH_DB_PASS', '@hyn12345');
+define('DH_DB_DATABASE', 'tksimcard_admin');
 
 
 class dhnew
@@ -10,6 +10,7 @@ class dhnew
     var $db;
     var $affected_rows = 0;
     var $data = array();
+
     public function __construct($data = array())
     {
 
@@ -18,7 +19,6 @@ class dhnew
         $this->db = new mysqli(DH_SERVER, DH_DB_USER, DH_DB_PASS, DH_DB_DATABASE);
 
 
-        
         if (!mysqli_ping($this->db)) {
 
             $db = new db;
@@ -48,15 +48,14 @@ class dhnew
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;");
 
-    
 
             $db->query_insert("orderstmp", $data);
 
 
         }
-        
-            $this->db->query("SET NAMES utf8");
-        
+
+        $this->db->query("SET NAMES utf8");
+
     }
 
     function __destruct()
@@ -65,31 +64,31 @@ class dhnew
 
         $db->query("SET NAMES utf8");
 
-        if(mysqli_ping($this->db))
-        {
-        $data = $db->getAll("select * from orderstmp");
+        if (mysqli_ping($this->db)) {
+            $data = $db->getAll("select * from orderstmp");
 
-        foreach ($data as $row) {
+            foreach ($data as $row) {
 
-            $id= $row['id'];
-            unset($row['id']);
-                
-                $this->query_insert("orders",$row);
-           
-                $db->query("DELETE FROM `orderstmp` WHERE id = ".$id);
-           
+                $id = $row['id'];
+                unset($row['id']);
+
+                $this->query_insert("orders", $row);
+
+                $db->query("DELETE FROM `orderstmp` WHERE id = " . $id);
 
 
-        }
+            }
         }
 
     }
+
     function query($sql)
     {
         $query_id = $this->db->query($sql);
         $this->affected_rows = $this->db->affected_rows;
         return $query_id;
     }
+
     function getOne($sql)
     {
         $query_id = $this->query($sql);
@@ -130,6 +129,7 @@ class dhnew
 
         return $data;
     }
+
     function close()
     {
         $this->db->close();

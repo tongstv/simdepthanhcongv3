@@ -19,27 +19,8 @@ require_once "app/lib/auth.php";
 require_once "app/lib/mysqli.php";
 require_once "app/lib/querycache.php";
 
+require_once "v3/elatic.php";
 
-
-if(!isset($_COOKIE['com']))
-{
-    setcookie("com",1,time()+30*24*60*60);
-    setcookie("com_url",$_SERVER["HTTP_REFERER"],time()+30*24*60*60);
-    setcookie("com_ip",$_SERVER["REMOTE_ADDR"],time()+30*24*60*60);
-    setcookie("com_domain",$_SERVER["SERVER_NAME"],time()+30*24*60*60);
-    setcookie("com_user",$_SERVER["HTTP_USER_AGENT"],time()+30*24*60*60);
-     setcookie("com_time",time(),time()+30*24*60*60);
-    $p['url']=$_SERVER["HTTP_REFERER"];
-    $p['ip']=$_SERVER["REMOTE_ADDR"];
-    $p['domain']=$_SERVER["SERVER_NAME"];
-    $p['user']=$_SERVER["HTTP_USER_AGENT"];
-    if(isset($_SERVER["HTTP_REFERER"]))
-    {
-    $admdb=new db;
-    
-    $admdb->query_insert("ccom",$p);
-    }
-}
 
 $txt=new querycache;
 

@@ -2,8 +2,259 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffaf782c-5ccb-497f-8a97-fbf4f6e727b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/index1.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/php-error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/020967d0b6177a0096cdd979d9dde74fe16d4f3b.file.users.resetpass.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/020967d0b6177a0096cdd979d9dde74fe16d4f3b.file.users.resetpass.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/04c4a92edcdab670b7781691ac3ca13c4a6db2b8.file.daily.edit.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/04c4a92edcdab670b7781691ac3ca13c4a6db2b8.file.daily.edit.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/0b03770a36179109cb7aa16cd0bd3673710fe4aa.file.daily.hh.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/0b03770a36179109cb7aa16cd0bd3673710fe4aa.file.daily.hh.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/11fa982687e4cf8c578f9e5f17fb5308fdc21d26.file.users.login.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/11fa982687e4cf8c578f9e5f17fb5308fdc21d26.file.users.login.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/1b1bb2f465fd5d743c34eb179f86ed182e42c3d9.file.orders.view.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/1b1bb2f465fd5d743c34eb179f86ed182e42c3d9.file.orders.view.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/1bdd66317404d8f40f753a953ef45840fb6f6851.file.daily.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/1bdd66317404d8f40f753a953ef45840fb6f6851.file.daily.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/26fcea8dd0c04825ee3203c3363bc7cb00441426.file.cod.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/26fcea8dd0c04825ee3203c3363bc7cb00441426.file.cod.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/29092837705115b2bb4ce1b13a2eac44a3f5f96b.file.users.add.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/29092837705115b2bb4ce1b13a2eac44a3f5f96b.file.users.add.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/29a8a36485caf424d986cf0edd9c4a97c6894eaa.file.backup.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/29a8a36485caf424d986cf0edd9c4a97c6894eaa.file.backup.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/2cbf59dbb46801f508ca602808c64df8300f952e.file.menu.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/2cbf59dbb46801f508ca602808c64df8300f952e.file.menu.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/2edda7d4c205d3265d60e833f9e757f6f1c7bd56.file.sim.quickremove.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/2edda7d4c205d3265d60e833f9e757f6f1c7bd56.file.sim.quickremove.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/329b9b67030bc88fceb31ae0294fb08d9edff737.file.sethome.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/329b9b67030bc88fceb31ae0294fb08d9edff737.file.sethome.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/3c12ed1695e31577012aa66fbfce1346cdb041c3.file.help.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/3c12ed1695e31577012aa66fbfce1346cdb041c3.file.help.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/415aa7db912db1a56e40270c312f74f6e29504fa.file.page.addseo.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/415aa7db912db1a56e40270c312f74f6e29504fa.file.page.addseo.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/43fac6d23eca5b7507e2430a27024e9910b8f9ce.file.congno.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/43fac6d23eca5b7507e2430a27024e9910b8f9ce.file.congno.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/4c57706d3120c0599d4082cb4de0e2cd188ead54.file.orders.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/4c57706d3120c0599d4082cb4de0e2cd188ead54.file.orders.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/5526aa15c190292d6afeeb63600f77736b81fa33.file.daily.dangsim.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/5526aa15c190292d6afeeb63600f77736b81fa33.file.daily.dangsim.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/59ec4031f72a39c69b8b961ec7a5fd74a5191b16.file.perm.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/59ec4031f72a39c69b8b961ec7a5fd74a5191b16.file.perm.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/5fcebb1e3e62d18496efaf4e8727c6d6c13d3c71.file.lock.mod.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/5fcebb1e3e62d18496efaf4e8727c6d6c13d3c71.file.lock.mod.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/6019838089f4df6c2d65646424d2f2a4ab0ee17f.file.users.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/6019838089f4df6c2d65646424d2f2a4ab0ee17f.file.users.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/6d8b4a9d908aec51b525697547fab04b41220d42.file.dondep.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/6d8b4a9d908aec51b525697547fab04b41220d42.file.dondep.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/75993c4ca1d6a8efa45e83aba1518a33ae9d058c.file.home.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/75993c4ca1d6a8efa45e83aba1518a33ae9d058c.file.home.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/785838981549ea68354f229643af8b3b59aa0b9c.file.footer.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/785838981549ea68354f229643af8b3b59aa0b9c.file.footer.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/7d1babfa0eb9a22a8bee815bcfe29440e9a323b1.file.dataviettel.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/7d1babfa0eb9a22a8bee815bcfe29440e9a323b1.file.dataviettel.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/7ead3fd501ba43e6e34bacd9d8e49e77442992e8.file.users.changer.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/7ead3fd501ba43e6e34bacd9d8e49e77442992e8.file.users.changer.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/8573b07633c55245e5dedf8b8c7d089410d971df.file.config.add.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/8573b07633c55245e5dedf8b8c7d089410d971df.file.config.add.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/8a4f49d3619e80577bdcb74a9fbe264f2afcab79.file.users.edit.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/8a4f49d3619e80577bdcb74a9fbe264f2afcab79.file.users.edit.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/8e595a4800ad789b165601cbe017984212b0d306.file.cachemanager.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/8e595a4800ad789b165601cbe017984212b0d306.file.cachemanager.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/97353a2e72840d07b0d2d5045a28d2670af8fcfd.file.page.edit.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/97353a2e72840d07b0d2d5045a28d2670af8fcfd.file.page.edit.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/a010027c908350ce4164af576e1f4ac64f8048b8.file.page.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/a010027c908350ce4164af576e1f4ac64f8048b8.file.page.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/a2c655f3c19463c366d1197030d6cf2f41a84316.file.doisim.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/a2c655f3c19463c366d1197030d6cf2f41a84316.file.doisim.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/a4348d4a1b93c19fa7deaa2d2a1e3c5ff6531d34.file.event.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/a4348d4a1b93c19fa7deaa2d2a1e3c5ff6531d34.file.event.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/a64f1e222cc6042825cbdb42c163eabc9136d8ee.file.page.view.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/a64f1e222cc6042825cbdb42c163eabc9136d8ee.file.page.view.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/aaf84b685996af8fa08827e3e456efa171cbfc8a.file.daily.tg.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/aaf84b685996af8fa08827e3e456efa171cbfc8a.file.daily.tg.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/ab63a097d58f1d3f84d940f1afd34d0dc2b4b827.file.sms.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/ab63a097d58f1d3f84d940f1afd34d0dc2b4b827.file.sms.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/b27a7e13ae1c5ca131295bba1d3ee05bce06ca4c.file.seo.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/b27a7e13ae1c5ca131295bba1d3ee05bce06ca4c.file.seo.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/ba453e2e21d4c5d03cfbf7fb68f2f353a8f66905.file.dongbohoa.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/ba453e2e21d4c5d03cfbf7fb68f2f353a8f66905.file.dongbohoa.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/ba504000b35c1fbdd06a3cc5fe8f6a582a826531.file.shop.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/ba504000b35c1fbdd06a3cc5fe8f6a582a826531.file.shop.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/bace9fccc42cf2d7c14a24d98647656d86634f06.file.removesim.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/bace9fccc42cf2d7c14a24d98647656d86634f06.file.removesim.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/c2f28da709b09744517806df84e9d0c2a1bf4462.file.daily.add.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/c2f28da709b09744517806df84e9d0c2a1bf4462.file.daily.add.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/c8cd72e4a9df50cc587668b440199a19110f3271.file.checksim.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/c8cd72e4a9df50cc587668b440199a19110f3271.file.checksim.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/cb82300aeea464c16cdfc69cf825a4903a8614b1.file.config.edit.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/cb82300aeea464c16cdfc69cf825a4903a8614b1.file.config.edit.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/d4b2fc57c941dee34d7c3d172e893d099f15f402.file.config.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/d4b2fc57c941dee34d7c3d172e893d099f15f402.file.config.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/da1e3965bb21a59e267ed0ea8b653ec0fb44277e.file.edittool.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/da1e3965bb21a59e267ed0ea8b653ec0fb44277e.file.edittool.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/dc17dcb779a5e869506548c780c1eec03503a313.file.addkey.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/dc17dcb779a5e869506548c780c1eec03503a313.file.addkey.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/e14d6e3c170709cd7e2b52372bc1951d17178d39.file.seo.edit.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/e14d6e3c170709cd7e2b52372bc1951d17178d39.file.seo.edit.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/e7ab62c1361ce21e27426ea3e00e6bda294e7fee.file.perm.add.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/e7ab62c1361ce21e27426ea3e00e6bda294e7fee.file.perm.add.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/ea9ac4fcd0ab3f66fb68292627891647eab3b30b.file.pagegroup.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/ea9ac4fcd0ab3f66fb68292627891647eab3b30b.file.pagegroup.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp/templates_c/f46dd9d28d8105bda70906cb5abed8d1654245b3.file.header.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp/templates_c/f46dd9d28d8105bda70906cb5abed8d1654245b3.file.header.htm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf2.php" beforeDir="false" afterPath="$PROJECT_DIR$/conf2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dh.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/dh.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixdb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/license/dataviettel_license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/license/dataviettel_license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cron.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cron.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ordered.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ordered.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/sodep.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/sodep.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/city.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/cod.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/css.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/doi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/editable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/giaodien.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/json.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/khuyenmai.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/memplush.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/neworder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/ordered.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/sitemap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/smsapi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/sodep.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/style.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/toggle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules1/user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mode/cus_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/my_mode/cus_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simdepth_admin.sql.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simdepth_home.sql.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/css/lessphp_9a728b79115a641fdefd12d1cc1d00d8.list" beforeDir="false" afterPath="$PROJECT_DIR$/template/css/css/lessphp_9a728b79115a641fdefd12d1cc1d00d8.list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/fixstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/template/css/fixstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/footer.htm" beforeDir="false" afterPath="$PROJECT_DIR$/template/footer.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/header.htm" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/search.htm" beforeDir="false" afterPath="$PROJECT_DIR$/template/search.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/tbody.htm" beforeDir="false" afterPath="$PROJECT_DIR$/template/tbody.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/box/chontheodauso.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/box/donhang.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/box/menu1.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/box/nhomtin.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/box/none.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/slow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/box/search_none_xs1.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/box/timsimnamsinh.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/box/timtheophongthuy.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/cod.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/asc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/chosen-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/chosen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/chosen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/css.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/desc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/easymenu/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/easymenu/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/easymenu/images/arrow-down1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/easymenu/images/arrow-down2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/easymenu/images/arrow-right1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/easymenu/images/arrow-right2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/easymenu/images/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/easymenu/images/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/easymenu/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/easymenu/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/easymenu/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/g.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/hotline.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/hover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/img/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/img/googleplus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/img/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/img/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/m.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/mega-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/menu.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/oss-credit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/pkgindex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/select2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/sites.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/social-likes_flat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/cerulean/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/cerulean/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/cerulean/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/cosmo/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/cosmo/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/cosmo/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/cyborg/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/cyborg/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/cyborg/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/darkly/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/darkly/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/darkly/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/flatly/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/flatly/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/flatly/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/journal/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/journal/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/journal/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/lumen/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/lumen/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/lumen/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/mixin.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/paper/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/paper/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/paper/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/readable/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/readable/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/readable/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/sandstone/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/sandstone/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/sandstone/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/simplex/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/simplex/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/simplex/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/slate/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/slate/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/slate/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/spacelab/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/spacelab/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/spacelab/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/superhero/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/superhero/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/superhero/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/united/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/united/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/united/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/yeti/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/yeti/bootswatch.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style/yeti/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/css/style1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/footer.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/giaodien.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/header.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/home.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/home.view.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/images/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/images/sbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/js/gmaps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/js/java.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/js/js.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/js/min.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/js/social-likes.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/menu.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/neworder.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/nosim.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/ordered.done.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/ordered.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/ordered.mycart.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/page.view.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/print.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/search.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/search_box.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/sodep.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/table_body.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/user.changeinfo.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/user.facebook.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/user.login.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template1/user.reg.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/0d0b4fc5ed1a46180bb0e1490dafd5062b2a3c03.file.sodep.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/0d0b4fc5ed1a46180bb0e1490dafd5062b2a3c03.file.sodep.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/18433f041852ff22350279f85f36911093c28ada.file.tintuc.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/18433f041852ff22350279f85f36911093c28ada.file.tintuc.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/19255f5ad824f5ae067a0147275008ed31e2e996.file.tintuc_right.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/19255f5ad824f5ae067a0147275008ed31e2e996.file.tintuc_right.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/22b8a23c541f4cadfb24d956b9921dfc420ea259.file.neworder.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/22b8a23c541f4cadfb24d956b9921dfc420ea259.file.neworder.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/45a00070d849914bebe20303fdd460096461796d.file.seo.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/45a00070d849914bebe20303fdd460096461796d.file.seo.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/61fc2bc397c5e320d3d6f2c5319d9a3f39d6d112.file.locsim.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/61fc2bc397c5e320d3d6f2c5319d9a3f39d6d112.file.locsim.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/6a382c752879510a09eb8d8f174173c3b6510e4a.file.home.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/6a382c752879510a09eb8d8f174173c3b6510e4a.file.home.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/6c6b928468d1618dfdaa9cff070e01b329d15688.file.page.view.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/6c6b928468d1618dfdaa9cff070e01b329d15688.file.page.view.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/81c8e029ae0d4473d7b6bfd2214c9e502b7669e5.file.ordered.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/81c8e029ae0d4473d7b6bfd2214c9e502b7669e5.file.ordered.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/8f6d91c09f09c2218bffc17c45e422eed0d89370.file.search.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/8f6d91c09f09c2218bffc17c45e422eed0d89370.file.search.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/a23444457001dfc31ee65c1b110153a140818db5.file.header.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/a23444457001dfc31ee65c1b110153a140818db5.file.header.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/a9a9830cf26d263d420c2b92835ac2a12a2da2bc.file.tbody.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/a9a9830cf26d263d420c2b92835ac2a12a2da2bc.file.tbody.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/e7865e822bd715a71a028253fad5e48e067c5c0b.file.footer.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/e7865e822bd715a71a028253fad5e48e067c5c0b.file.footer.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/f97c9a8552de4aca4b949c7682cf84649f90d122.file.search_box.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates_c/f97c9a8552de4aca4b949c7682cf84649f90d122.file.search_box.htm.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,17 +263,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conf2.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/print.htm">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/search.htm">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/error.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="-17796" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/css/css.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-192" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/css/fixstyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="428" column="27" selection-start-line="428" selection-start-column="27" selection-end-line="428" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>body</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,7 +315,35 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="&lt;1c34d11a-803e-4f22-9312-a3affb924b66&gt;/conf2.php" />
+        <option value="$PROJECT_DIR$/modules/search.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/dh.class.php" />
+        <option value="$PROJECT_DIR$/my_mode/cus_header.php" />
+        <option value="$PROJECT_DIR$/modules/header.php" />
+        <option value="$PROJECT_DIR$/modules/footer.php" />
+        <option value="$PROJECT_DIR$/modules/slow.php" />
+        <option value="$PROJECT_DIR$/template/tbody.htm" />
+        <option value="$PROJECT_DIR$/template/header.htm" />
         <option value="$PROJECT_DIR$/conf2.php" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/A1F02B60.tmp/info.php" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/A1F02B60_edit.tmp/conf.inc.php" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/FD9DF687_edit.tmp/Database.class.php" />
+        <option value="G:/vespa_cp/install.txt" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/276DE5D2_edit.tmp/default.tpl" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/276DE5D2_edit.tmp/default.stpl" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/D3E7239D_edit.tmp/phpMyAdmin.conf" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/A1F02B60_edit.tmp/index.php" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/A1F02B60.tmp/i.php" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/A1F02B60_edit.tmp/conf2.php" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/24CE4002_edit.tmp/cron.php" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/E89A2894_edit.tmp/my.cnf" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/24CE4002_edit.tmp/search.php" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/5C6B3D9E_edit.tmp/error.2019-12-13.log" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/9F96216F_edit.tmp/stvinc.php" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/4755F67E_edit.tmp/footer.htm" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/4755F67E_edit.tmp/search.htm" />
+        <option value="$PROJECT_DIR$/template/css/fixstyle.css" />
       </list>
     </option>
   </component>
@@ -42,19 +355,6 @@
   </component>
   <component name="PhpServers">
     <servers />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-        <option value="$PROJECT_DIR$/.idea/simdepthanhcong.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
-        <option value="$PROJECT_DIR$/.idea/webServers.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="410" />
@@ -75,6 +375,17 @@
               <item name="simdepthanhcong" type="b2602c69:ProjectViewProjectNode" />
               <item name="simdepthanhcong" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="simdepthanhcong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simdepthanhcong" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simdepthanhcong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simdepthanhcong" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -84,6 +395,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -102,6 +418,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="conf2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/conf2.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.conf2.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -112,22 +438,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575440350674</updated>
-      <workItem from="1575440351777" duration="3261000" />
+      <workItem from="1575440351777" duration="4856000" />
+      <workItem from="1575470477248" duration="588000" />
+      <workItem from="1576121364497" duration="16949000" />
+      <workItem from="1576160747047" duration="599000" />
+      <workItem from="1576230698320" duration="1971000" />
+      <workItem from="1582812130702" duration="997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3261000" />
+    <option name="totallyTimeSpent" value="25960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15565032" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21375267" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4978678" visible="true" weight="0.30888888" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4978678" weight="0.30888888" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026652" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" />
@@ -138,24 +470,141 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49733475" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49733475" visible="true" />
       <window_info active="true" anchor="bottom" id="REST Client" order="13" visible="true" weight="0.33888888" />
-      <window_info anchor="right" id="Google Cloud Storage" show_stripe_button="false" />
-      <window_info anchor="right" id="Kubernetes Explorer" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Google Cloud Storage" order="4" show_stripe_button="false" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Kubernetes Explorer" order="6" visible="true" weight="0.030916844" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/memplush.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/slow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/tbody.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="87" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5667">
+          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conf2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="119">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/8A54DE1B_edit.tmp/conf.inc.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/24CE4002_edit.tmp/home.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/F8BCBC87_edit.tmp/conf.inc.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/908C709F_edit.tmp/footer.htm" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/908C709F_edit.tmp/header.htm" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/908C709F_edit.tmp/home.htm" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60_edit.tmp/conf.inc.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60_edit.tmp/.htaccess" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/FD9DF687_edit.tmp/license.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/CC4C4C50_edit.tmp/SmartyBC.class.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/FD9DF687_edit.tmp/Database.class.php" />
+    <entry file="file://$USER_HOME$/Desktop/Mutipeserver_setup/slave.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Mutipeserver_setup/melinh.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/84C8B7F8_edit.tmp/default.tpl" />
+    <entry file="file://$USER_HOME$/Desktop/Mutipeserver_setup/nginx/nginx/default.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A61C4F55_edit.tmp/simdepthanhcong.com.nginx.conf" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A61C4F55_edit.tmp/simdepthanhcong.com.httpd.conf" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/276DE5D2_edit.tmp/default.tpl" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/276DE5D2_edit.tmp/default.stpl" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/D3E7239D_edit.tmp/vesta.conf" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/D3E7239D_edit.tmp/phpMyAdmin.conf" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/461EB641_edit.tmp/my.cnf" />
+    <entry file="file://G:/vespa_cp/install.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60.tmp/info.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60.tmp/i.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60_edit.tmp/conf2.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/24CE4002_edit.tmp/cron.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/E89A2894_edit.tmp/my.cnf" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60_edit.tmp/error.log" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60_edit.tmp/index.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/C93CA258_edit.tmp/simdepthanhcong.com.error.log" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/24CE4002_edit.tmp/search.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/FB59F248_edit.tmp/app.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/5C6B3D9E_edit.tmp/error.2019-12-13.log" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/9F96216F_edit.tmp/stvinc.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/4755F67E_edit.tmp/footer.htm" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/1E794C84_edit.tmp/footer.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/4755F67E_edit.tmp/search.htm" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/1E794C84_edit.tmp/search.php" />
+    <entry file="file://$PROJECT_DIR$/template/print.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/search.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17796" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/fixstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="428" column="27" selection-start-line="428" selection-start-column="27" selection-end-line="428" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-07-15 15:43:54
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2020-02-22 21:58:45
          compiled from "/usr/local/lib/php/app/adm/templates/dongbohoa.htm" */ ?>
-<?php /*%%SmartyHeaderCode:17840443915d2c3cca5a4aa6-73580046%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17042742585e5141a53c42b3-54630146%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ba453e2e21d4c5d03cfbf7fb68f2f353a8f66905' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/dongbohoa.htm',
-      1 => 1529045760,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17840443915d2c3cca5a4aa6-73580046',
+  'nocache_hash' => '17042742585e5141a53c42b3-54630146',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5d2c3cca6266a5_02435516',
+  'unifunc' => 'content_5e5141a54229d3_98725819',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5d2c3cca6266a5_02435516')) {function content_5d2c3cca6266a5_02435516($_smarty_tpl) {?><div class="panel panel-success">
+<?php if ($_valid && !is_callable('content_5e5141a54229d3_98725819')) {function content_5e5141a54229d3_98725819($_smarty_tpl) {?><div class="panel panel-success">
   <div class="panel-heading">
     <h2 class="panel-title">Đống bộ hóa dữ liệu admin và trang chủ</h2>
   </div>

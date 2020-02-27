@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-11-07 22:54:00
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-12 00:47:40
          compiled from "template/tintuc_right.htm" */ ?>
-<?php /*%%SmartyHeaderCode:14275115405dc43e188ed6d6-84609263%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:16454088705df12bbc5efee4-39750718%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14275115405dc43e188ed6d6-84609263',
+  'nocache_hash' => '16454088705df12bbc5efee4-39750718',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5dc43e18936207_47658130',
+  'unifunc' => 'content_5df12bbc5fc869_38811416',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5dc43e18936207_47658130')) {function content_5dc43e18936207_47658130($_smarty_tpl) {?><div class="panel panel-success">
+<?php if ($_valid && !is_callable('content_5df12bbc5fc869_38811416')) {function content_5df12bbc5fc869_38811416($_smarty_tpl) {?><div class="panel panel-success">
   <div class="panel-heading">
     <h2 class="panel-title">Tin tức sim số đẹp</h2>
   </div>

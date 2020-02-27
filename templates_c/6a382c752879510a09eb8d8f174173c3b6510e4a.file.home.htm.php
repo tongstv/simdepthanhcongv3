@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-11-15 16:37:05
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-12 00:47:36
          compiled from "template/home.htm" */ ?>
-<?php /*%%SmartyHeaderCode:3467262325dc3d5c649bbc2-93989438%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19329406135df12bb85054d6-88958977%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3467262325dc3d5c649bbc2-93989438',
+  'nocache_hash' => '19329406135df12bb85054d6-88958977',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5dc3d5c65ec144_52301094',
   'variables' => 
   array (
     'simkm' => 0,
@@ -24,8 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'paging' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_5df12bb8592c80_55038548',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5dc3d5c65ec144_52301094')) {function content_5dc3d5c65ec144_52301094($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5df12bb8592c80_55038548')) {function content_5df12bb8592c80_55038548($_smarty_tpl) {?>
 <div class="panel panel-success visible-xs">
     <div class="panel-body sns-wrap">
         <h4 class="sns-text">TÌM SIM <br> THEO NGÀY SINH</h4>

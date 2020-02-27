@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2018-10-25 11:09:30
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-12 18:50:56
          compiled from "/usr/local/lib/php/app/adm/templates/sms.htm" */ ?>
-<?php /*%%SmartyHeaderCode:18049724655bd141fabe57e3-43437064%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11873454335df229a0a997a5-87636148%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ab63a097d58f1d3f84d940f1afd34d0dc2b4b827' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/sms.htm',
-      1 => 1481519031,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18049724655bd141fabe57e3-43437064',
+  'nocache_hash' => '11873454335df229a0a997a5-87636148',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5bd141fac8b487_92442806',
+  'unifunc' => 'content_5df229a0b3ccc1_81103797',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5bd141fac8b487_92442806')) {function content_5bd141fac8b487_92442806($_smarty_tpl) {?><div class="panel panel-success">
+<?php if ($_valid && !is_callable('content_5df229a0b3ccc1_81103797')) {function content_5df229a0b3ccc1_81103797($_smarty_tpl) {?><div class="panel panel-success">
   <div class="panel-heading">
     <h2 class="panel-title">Tin nhắn<div class="pull-right"><a href="index.php?ajax=sms.huongdan" class="ajax">Hướng dẫn cấu hình</a></div></h2>
   </div>

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-08-30 08:34:56
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-13 18:06:03
          compiled from "/usr/local/lib/php/app/adm/templates/help.htm" */ ?>
-<?php /*%%SmartyHeaderCode:11019679635d687d403501b1-75060232%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18546135795df3709b712b88-46479887%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '3c12ed1695e31577012aa66fbfce1346cdb041c3' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/help.htm',
-      1 => 1538200790,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11019679635d687d403501b1-75060232',
+  'nocache_hash' => '18546135795df3709b712b88-46479887',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5d687d403a4861_05836712',
+  'unifunc' => 'content_5df3709b74c4a4_82739240',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5d687d403a4861_05836712')) {function content_5d687d403a4861_05836712($_smarty_tpl) {?>      <form class="ajax-form form-horizontal" action="index.php?ajax=<?php echo $_GET['ajax'];?>
+<?php if ($_valid && !is_callable('content_5df3709b74c4a4_82739240')) {function content_5df3709b74c4a4_82739240($_smarty_tpl) {?>      <form class="ajax-form form-horizontal" action="index.php?ajax=<?php echo $_GET['ajax'];?>
 ">
       <input name="submit" value="true" type="hidden" />
       
@@ -80,7 +80,7 @@ Skype: tongstv
 Skype: 
 
 <br />
-Hotline: <strong>036.720.7777</strong>
+Hotline: <strong>0125.875.9999</strong>:  mr. Hiếu
 
 <br />
 Vấn đề nghiêm trọng: <strong>0914.77.9999</strong>

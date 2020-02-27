@@ -1,30 +1,30 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-11-06 10:31:41
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-12 15:59:53
          compiled from "/usr/local/lib/php/app/adm/templates/footer.htm" */ ?>
-<?php /*%%SmartyHeaderCode:18354214765bc3ffd5e02450-29745586%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:16546280595df20189cb93e3-34762330%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '785838981549ea68354f229643af8b3b59aa0b9c' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/footer.htm',
-      1 => 1573011097,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18354214765bc3ffd5e02450-29745586',
+  'nocache_hash' => '16546280595df20189cb93e3-34762330',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5bc3ffd5e3a258_73073692',
   'variables' => 
   array (
     'hour' => 0,
     'footer' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_5df20189ce9bb4_22365507',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5bc3ffd5e3a258_73073692')) {function content_5bc3ffd5e3a258_73073692($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/usr/local/lib/php/app/lib/libs/plugins/modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5df20189ce9bb4_22365507')) {function content_5df20189ce9bb4_22365507($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/usr/local/lib/php/app/lib/libs/plugins/modifier.date_format.php';
 ?>
 
 <?php echo '<script'; ?>
@@ -166,7 +166,7 @@ function msg(){
         
      
         audioElement.addEventListener("load", function() {
-         //   audioElement.play();
+            audioElement.play();
         },true);
         
        }
@@ -201,7 +201,7 @@ function msg(){
 }
 setTimeout(msg, 1000);
 
-///setTimeout(checkload, 3000);
+setTimeout(checkload, 3000);
 
  var element = 'li a, button,input, .to-ripple',
       	   current, 

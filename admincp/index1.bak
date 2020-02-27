@@ -33,8 +33,20 @@ $ajax="";
     else
     $pro=$ajax;
     
-    if(isset($_SESSION['lock'])):
-    if(in_array($pro,$_SESSION['lock']))
+    $pro2=explode('.',$pro);
+    if(isset($pro2[1]));
+    $pro=$pro2[0];
+    
+    if(isset($_SESSION['modallow']))
+    {
+        
+        $_SESSION['lock']=array_merge($_SESSION['lock'],$_SESSION['modallow']);
+        
+    }
+    
+ 
+    if(isset($_SESSION['lock']) AND !empty($pro)):
+    if(!in_array($pro,$_SESSION['lock']))
     {
          if($ajax)
         $ajax="lock.mod";
@@ -44,21 +56,7 @@ $ajax="";
     endif;
 
     
-    
-  if(isset($_SESSION['modallow']))
-  {
-    if($pro):
-    if(!in_array($pro,$_SESSION['modallow']))
-    {
-        if($ajax)
-        $ajax="lock.mod";
-        else
-        $do="lock.mod";
-        
 
-    }
-    endif;
-  }
 
         
 $control="home";

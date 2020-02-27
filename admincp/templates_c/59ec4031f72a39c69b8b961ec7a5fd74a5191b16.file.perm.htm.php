@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2018-12-12 15:38:33
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-17 11:19:44
          compiled from "/usr/local/lib/php/app/adm/templates/perm.htm" */ ?>
-<?php /*%%SmartyHeaderCode:18129307525c10c9098cf057-58254708%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11569812235df85760660cb3-79954022%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '59ec4031f72a39c69b8b961ec7a5fd74a5191b16' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/perm.htm',
-      1 => 1472881806,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18129307525c10c9098cf057-58254708',
+  'nocache_hash' => '11569812235df85760660cb3-79954022',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5c10c90996b5a1_56123798',
+  'unifunc' => 'content_5df857606bc087_39293079',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5c10c90996b5a1_56123798')) {function content_5c10c90996b5a1_56123798($_smarty_tpl) {?><div class="panel panel-success">
+<?php if ($_valid && !is_callable('content_5df857606bc087_39293079')) {function content_5df857606bc087_39293079($_smarty_tpl) {?><div class="panel panel-success">
   <div class="panel-heading">
     <h2 class="panel-title">Quản lý tài khoản</h2>
   </div>

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-10-31 15:16:41
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-14 14:07:07
          compiled from "/usr/local/lib/php/app/adm/templates/dataviettel.htm" */ ?>
-<?php /*%%SmartyHeaderCode:10856705015dba9869073fd0-44915225%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:21112817415df48a1b1a13d3-92783685%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '7d1babfa0eb9a22a8bee815bcfe29440e9a323b1' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/dataviettel.htm',
-      1 => 1571971553,
+      1 => 1571971552,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10856705015dba9869073fd0-44915225',
+  'nocache_hash' => '21112817415df48a1b1a13d3-92783685',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5dba986910e1e3_00897481',
+  'unifunc' => 'content_5df48a1b21e546_57866532',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5dba986910e1e3_00897481')) {function content_5dba986910e1e3_00897481($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_options')) include '/usr/local/lib/php/app/lib/libs/plugins/function.html_options.php';
+<?php if ($_valid && !is_callable('content_5df48a1b21e546_57866532')) {function content_5df48a1b21e546_57866532($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_options')) include '/usr/local/lib/php/app/lib/libs/plugins/function.html_options.php';
 if (!is_callable('smarty_modifier_date_format')) include '/usr/local/lib/php/app/lib/libs/plugins/modifier.date_format.php';
 ?> <?php echo '<script'; ?>
  src="/apps/js/pace.min.js"><?php echo '</script'; ?>

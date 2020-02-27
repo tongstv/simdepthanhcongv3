@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2018-10-15 13:52:56
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-12 18:48:24
          compiled from "/usr/local/lib/php/app/adm/templates/event.htm" */ ?>
-<?php /*%%SmartyHeaderCode:10728686855bc439480afa76-55620091%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:21329836455df229089f5ba8-63316674%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a4348d4a1b93c19fa7deaa2d2a1e3c5ff6531d34' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/event.htm',
-      1 => 1493799291,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10728686855bc439480afa76-55620091',
+  'nocache_hash' => '21329836455df229089f5ba8-63316674',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5bc439481459b9_38546643',
+  'unifunc' => 'content_5df22908a92db8_33437021',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5bc439481459b9_38546643')) {function content_5bc439481459b9_38546643($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/usr/local/lib/php/app/lib/libs/plugins/modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5df22908a92db8_33437021')) {function content_5df22908a92db8_33437021($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/usr/local/lib/php/app/lib/libs/plugins/modifier.date_format.php';
 ?><div class="panel panel-success">
   <div class="panel-heading">
     <h2 class="panel-title">Sự kiện</h2>

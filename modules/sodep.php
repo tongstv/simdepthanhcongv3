@@ -37,7 +37,7 @@ class sodep extends Smarty
             else
                 $where .= " AND (" . $kieu[$_GET['type']] . ")";
         }
-   
+
 
         //$paging .= $pages->display_jump_menu();
         if (isset($_SESSION['toggleprice']))
@@ -49,25 +49,19 @@ class sodep extends Smarty
         include_once "locsim.php";
 
 
-      
-      
-      
-      if(!isset($_SESSION['locsim']['skhoanggia']))
-      {
-        
-        
-          if (isset($_GET['giatu']) and isset($_GET['den'])) {
-          
-          
-          //$where .= "AND (giaban >= ".($_GET['giatu']/1000000)." AND giaban <= ".($_GET['den']/1000000).")";
+        if (!isset($_SESSION['locsim']['skhoanggia'])) {
+
+
+            if (isset($_GET['giatu']) and isset($_GET['den'])) {
+
+
+                //$where .= "AND (giaban >= ".($_GET['giatu']/1000000)." AND giaban <= ".($_GET['den']/1000000).")";
+            }
+
         }
-        
-      }
-     
-   
 
 
-        $num_rows = num_rows_cache("SELECT count(*) AS num_rows FROM " . TABLE_SIM . " {$where}");
+        $num_rows = num_rows_cache("SELECT count(*) AS num_rows FROM sim {$where}");
 
         $pages = new Paginator($num_rows, 9, array(
             100,
@@ -78,9 +72,7 @@ class sodep extends Smarty
         $paging = $pages->display_pages();
 
 
-        $sql = "SELECT * FROM " . TABLE_SIM . " {$where} {$orderby} limit $pages->limit_start,$pages->limit_end";
-        
-     
+        $sql = "SELECT * FROM sim {$where} {$orderby} limit $pages->limit_start,$pages->limit_end";
 
 
         if ($pages->current_page == 1)

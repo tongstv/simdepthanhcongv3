@@ -1,47 +1,24 @@
 <?php
 
-class search extends smarty
+class search extends smartyBC
 {
 
     function namsinh($d, $m, $y, $x)
     {
-        if($x == 0){
-        $where = " AND (";
-        $where .= "RIGHT(sim2,8)='" . $d . $m . $y . "'"; //1 DK 1 01.09.1990
-        $where .= " || RIGHT(sim2,7)='" . substr($d, -1, 1) . $m . $y . "'"; //DK 2 1.09.1990
-        if ($m < 10)
-            $where .= " || RIGHT(sim2,7)='" . $d . substr($m, -1, 1) . $y . "'"; //DK 3 01.9.1990
-        if ($m < 10 && $d < 10) {
-            $where .= " || RIGHT(sim2,6)='" . substr($d, -1, 1) . substr($m, -1, 1) . $y .
-                "'"; //DK4 1.9.1990
-            $where .= " || RIGHT(sim2,6)='" . $d . $m . substr($y, -2, 2) . "'"; //DK5 01.09.90
-        }
-        if ($d < 10)
-            $where .= " || RIGHT(sim2,5)='" . substr($d, -1, 1) . $m . substr($y, -2, 2) .
-                "'"; //DK6 1.09.90
-        if ($m < 10)
-            $where .= " || RIGHT(sim2,5)='" . $d . substr($m, -1, 1) . substr($y, -2, 2) .
-                "'"; //DK7 01.9.90
-        if ($m < 10 && $d < 10)
-            $where .= " || RIGHT(sim2,4)='" . substr($d, -1, 1) . substr($m, -1, 1) . substr($y,
-                -2, 2) . "'"; //DK8 1.9.90
-        $where .= " || RIGHT(sim2,4)='" . $y . "'"; //DK 9 VD: 1990
-        $where .= ")";
-
-        } else if ($x == 2) {
+        if ($x == 0)
+        {
             $where = " AND (";
-
-            $where .= "RIGHT(sim2,6)='" . $d . $m . substr($y, -2, 2) . "'";
-            /*
+            $where .= "RIGHT(sim2,8)='" . $d . $m . $y . "'"; //1 DK 1 01.09.1990
+            $where .= " || RIGHT(sim2,7)='" . substr($d, -1, 1) . $m . $y . "'"; //DK 2 1.09.1990
             if ($m < 10)
-                $where .= "RIGHT(sim2,6)='" . $d . $m . $y . "'"; //DK 3 01.9.1990
-            if ($m < 10 && $d < 10) {
-                /*$where .= " || RIGHT(sim2,6)='" . substr($d, -1, 1) . substr($m, -1, 1) . $y .
+                $where .= " || RIGHT(sim2,7)='" . $d . substr($m, -1, 1) . $y . "'"; //DK 3 01.9.1990
+            if ($m < 10 && $d < 10)
+            {
+                $where .= " || RIGHT(sim2,6)='" . substr($d, -1, 1) . substr($m, -1, 1) . $y .
                     "'"; //DK4 1.9.1990
                 $where .= " || RIGHT(sim2,6)='" . $d . $m . substr($y, -2, 2) . "'"; //DK5 01.09.90
             }
-
-            /*if ($d < 10)
+            if ($d < 10)
                 $where .= " || RIGHT(sim2,5)='" . substr($d, -1, 1) . $m . substr($y, -2, 2) .
                     "'"; //DK6 1.09.90
             if ($m < 10)
@@ -50,24 +27,52 @@ class search extends smarty
             if ($m < 10 && $d < 10)
                 $where .= " || RIGHT(sim2,4)='" . substr($d, -1, 1) . substr($m, -1, 1) . substr($y,
                     -2, 2) . "'"; //DK8 1.9.90
-            if ($where != ' AND (')
-                $where .= " || RIGHT(sim2,4)='" . $y . "'"; //DK 9 VD: 1990
-            else
-                $where .= " RIGHT(sim2,4)='" . $y . "'"; //DK 9 VD: 1990*/
+            $where .= " || RIGHT(sim2,4)='" . $y . "'"; //DK 9 VD: 1990
             $where .= ")";
+
         } else
-            if ($x == 1) {
+            if ($x == 2)
+            {
                 $where = " AND (";
-                $where .= "RIGHT(sim2,8)='" . $d . $m . $y . "'"; //1 DK 1 01.09.1990
-                $where .= " || RIGHT(sim2,7)='" . substr($d, -1, 1) . $m . $y . "'"; //DK 2 1.09.1990
+
+                $where .= "RIGHT(sim2,6)='" . $d . $m . substr($y, -2, 2) . "'";
+                /*
                 if ($m < 10)
-                    $where .= " || RIGHT(sim2,7)='" . $d . substr($m, -1, 1) . $y . "'"; //DK 3 01.9.1990
+                $where .= "RIGHT(sim2,6)='" . $d . $m . $y . "'"; //DK 3 01.9.1990
+                if ($m < 10 && $d < 10) {
+                /*$where .= " || RIGHT(sim2,6)='" . substr($d, -1, 1) . substr($m, -1, 1) . $y .
+                "'"; //DK4 1.9.1990
+                $where .= " || RIGHT(sim2,6)='" . $d . $m . substr($y, -2, 2) . "'"; //DK5 01.09.90
+                }
 
+                /*if ($d < 10)
+                $where .= " || RIGHT(sim2,5)='" . substr($d, -1, 1) . $m . substr($y, -2, 2) .
+                "'"; //DK6 1.09.90
+                if ($m < 10)
+                $where .= " || RIGHT(sim2,5)='" . $d . substr($m, -1, 1) . substr($y, -2, 2) .
+                "'"; //DK7 01.9.90
+                if ($m < 10 && $d < 10)
+                $where .= " || RIGHT(sim2,4)='" . substr($d, -1, 1) . substr($m, -1, 1) . substr($y,
+                -2, 2) . "'"; //DK8 1.9.90
+                if ($where != ' AND (')
                 $where .= " || RIGHT(sim2,4)='" . $y . "'"; //DK 9 VD: 1990
-
+                else
+                $where .= " RIGHT(sim2,4)='" . $y . "'"; //DK 9 VD: 1990*/
                 $where .= ")";
+            } else
+                if ($x == 1)
+                {
+                    $where = " AND (";
+                    $where .= "RIGHT(sim2,8)='" . $d . $m . $y . "'"; //1 DK 1 01.09.1990
+                    $where .= " || RIGHT(sim2,7)='" . substr($d, -1, 1) . $m . $y . "'"; //DK 2 1.09.1990
+                    if ($m < 10)
+                        $where .= " || RIGHT(sim2,7)='" . $d . substr($m, -1, 1) . $y . "'"; //DK 3 01.9.1990
 
-            }
+                    $where .= " || RIGHT(sim2,4)='" . $y . "'"; //DK 9 VD: 1990
+
+                    $where .= ")";
+
+                }
         return $where;
     }
 
@@ -122,6 +127,46 @@ class search extends smarty
                     else
                         $where = "WHERE sim2 rlike '^" . $txtsim . "$'";
                 }
+
+                // recommend birthday
+                $pos = strrpos($txtsim, "*");
+                $number = substr($txtsim,$pos+1);
+
+                $recommend = 0;
+                if (is_numeric($number)) {
+                    if ($number >= 0 && $number < 21) {
+                        if (strlen($number) > 2) {
+                            $recommend = 2;
+                        } else {
+                            $recommend= 20;
+                        }
+                    } elseif ($number >= 75 && $number < 100) {
+                        $recommend= 19;
+                    } elseif ($number >= 975 && $number < 1000) {
+                        $recommend= 1;
+                    }  elseif ($number >= 1975 && $number < 2000) {
+                        $recommend= -1;
+                    } elseif ($number >= 2000 && $number < 2020) {
+                        $recommend= -1;
+                    }
+                }
+                // $recommend = 0;
+                // switch ($value) {
+                //     case 19:
+                //         $recommend = 19;
+                //         break;
+                        
+                //     case 20:
+                //         $recommend = 20;
+                //         break;
+            
+                //     default:
+                //         $recommend = 0;
+                //         break;
+                // }
+
+                $this->assign("recommend", $recommend);
+                $this->assign("recommend_value", $number);
             } else
             {
                 $where = "where sim2 IS NOT NULL";
@@ -130,9 +175,11 @@ class search extends smarty
 
             // TODO:
 
-            if (isset($_GET['n']) and is_array($_GET['n'])) {
+            if (isset($_GET['n']) and is_array($_GET['n']))
+            {
                 $vv = "";
-                foreach ($_GET['n'] as &$v) {
+                foreach ($_GET['n'] as &$v)
+                {
                     $vv .= $v;
                 }
                 $where .= " AND sim2 NOT rlike'[" . $vv . "]'";
@@ -141,17 +188,20 @@ class search extends smarty
 
             // TODO: Mạng
 
-            if (isset($_GET['date'])) {
+            if (isset($_GET['date']))
+            {
                 $date = urldecode($_GET['date']);
                 $date = explode("/", $date);
 
                 $where .= $this->namsinh($date[0], $date[1], $date[2], $_GET['dtp']);
             }
-            if (isset($_GET['network']) and $_GET['network']) {
+            if (isset($_GET['network']) and $_GET['network'])
+            {
 
                 if (is_numeric($_GET['network']))
                     $where .= " AND mang=" . (int)$_GET['network'];
-                else {
+                else
+                {
                     global $mangpos;
                     $where .= " AND mang=" . (int)$mangpos[$_GET['network']];
                 }
@@ -160,7 +210,8 @@ class search extends smarty
             // TODO:  Theeo giá
 
 
-            if (isset($_GET['dang'])) {
+            if (isset($_GET['dang']))
+            {
                 global $kieu;
                 if (is_array($kieu[$_GET['dang']]))
                     $where .= " AND (" . join(" AND ", $kieu[$_GET['dang']]) . ")";
@@ -169,7 +220,8 @@ class search extends smarty
             }
 
 
-            if (isset($_GET['giatu']) && isset($_GET['den'])) {
+            if (isset($_GET['giatu']) && isset($_GET['den']))
+            {
                 $giatu = stringtonumber($_GET['giatu']);
                 $den = stringtonumber($_GET['den']);
 
@@ -185,74 +237,32 @@ class search extends smarty
                 $where .= " AND stype=" . $_GET['type'];
 
 
-            $sim = $_GET['sim'];
-
-
-            $qstring = $_SERVER["QUERY_STRING"];
-
-
-            $ck = @preg_match('/\?page=([0-9]*)/', $qstring, $cuspage);
-
-
-            if ($ck) {
-                $cuspage = $cuspage[1];
-            } else {
-                $cuspage = 0;
-            }
-
-            if ($cuspage) {
-                $offset = $cuspage * 2 * 100;
-            } else {
-                $offset = 0;
-            }
-
-            if ($cuspage == 0) {
-                $this->assign("linkx", "?" . $qstring . "?page=2");
-
-            } else {
-                $this->assign("linkx", "?" . preg_replace('/\?page=([0-9]+)/', '', $qstring) .
-                    "?page=" . ($cuspage + 1));
-
-
-                $this->assign("link2", "?" . preg_replace('/\?page=([0-9]+)/', '', $qstring) .
-                    "?page=" . ($cuspage - 1));
-
-
-                //$cuspage = 20;
-
-                $pstart = $cuspage - 9;
 
 
 
-                    if($cuspage > 1):
-                for ($i = $pstart; $i <= $cuspage; $i++) {
 
-                    if($i >= 1)
+        $limit = 12000*($_GET['page'] ? $_GET['page']  : 1);
+
+ 
+     
+
+
+            if (isset($_GET['tongdiem']) and isset($_GET['tongnut']))
+            {
+
+                if ((int)$_GET['tongdiem'] > 0)
+                    $where .= " AND tong=" . (int)$_GET['tongdiem'];
+                else
+                    if ((int)$_GET['tongnut'] > 0)
                     {
-
-                    if ($cuspage == $i) {
-                        $ps .= '<li class="active"><a class="paginate" title="Go to page 7 of 418" href="#">' .
-                            $i . '</a></li>';
-                    } else {
-                        $ps .= '<li><a class="paginate" title="Go to page 7 of 418" href="'."?" . preg_replace('/\?page=([0-9]+)/', '', $qstring) .
-                    "?page=" . ($i).'">' .
-                            $i . '</a></li>';
+                        if ((int)$_GET['tongnut'] == 10)
+                            $_GET['tongnut'] = 0;
+                        $where .= " AND right(tong,1)=" . (int)$_GET['tongnut'];
                     }
-                }
-
-                }
-                
-                $this->assign("ps",$ps);
-                endif;
-                
-
-
             }
 
-            $this->assign("ps",$ps);
-            
-          
-            $this->assign("p", $cuspage);
+
+        
 
             // $this->assign("linkp2",$qstring."?page=".$cuspage-1);
 
@@ -278,19 +288,19 @@ class search extends smarty
             
             
             */
-            $num_rows = 600;
+     
 
 
-            $pages = new Paginator($num_rows, 5, array(
-                100,
-                250,
-                500));
-            if (isset($_GET['tongdiem']) and isset($_GET['tongnut'])) {
+        
+
+            if (isset($_GET['tongdiem']) and isset($_GET['tongnut']))
+            {
 
                 if ((int)$_GET['tongdiem'] > 0)
                     $where .= " AND tong=" . (int)$_GET['tongdiem'];
                 else
-                    if ((int)$_GET['tongnut'] > 0) {
+                    if ((int)$_GET['tongnut'] > 0)
+                    {
                         if ((int)$_GET['tongnut'] == 10)
                             $_GET['tongnut'] = 0;
                         $where .= " AND right(tong,1)=" . (int)$_GET['tongnut'];
@@ -298,43 +308,61 @@ class search extends smarty
             }
 
 
-            $paging = $pages->display_pages();
+
+//$num_rows=\elatic\num_rows("SELECT * FROM " . TABLE_SIM .  {$where});
+    $pages = new Paginator(1, 5, array(
+                100,
+                250,
+                500));
+
+            //$paging = $pages->display_pages();
             // $paging .= $pages->display_jump_menu();
             if (isset($_SESSION['toggleprice']))
                 $orderby = "ORDER BY giaban " . $_SESSION['toggleprice'];
             else
-                $orderby = "ORDER BY giaban ASC";
-include_once "locsim.php";
+                $orderby = "ORDER BY giaban";
+            include_once "locsim.php";
 
             $sql = "SELECT * FROM " . TABLE_SIM . " {$where} {$orderby} limit $pages->limit_start,$pages->limit_end";
+
 
             if ($pages->current_page == 1)
                 $i = 0;
             else
                 $i = $pages->limit_start;
-            $this->assign("data", getSim($i, $sql));
+       
+            $this->assign("data",\elatic\getSim($i,$sql));
 
-            $this->assign("paging", $paging);
+
+                  
+                           $this->assign("paging", $paging);
+        
 
             if (isset($_GET['sim']))
                 $name[] = "Tìm sim: " . $_GET['sim'];
 
-            if (isset($_GET['network']) AND $_GET['network']!=0) {
-                if (is_numeric($_GET['network']) and $_GET['network'] != 0) {
-                    foreach ($GLOBALS['mangpos'] as $k => $v) {
-                        if ($v == $_GET['network']) {
+            if (isset($_GET['network']) and $_GET['network'] != 0)
+            {
+                if (is_numeric($_GET['network']) and $_GET['network'] != 0)
+                {
+                    foreach ($GLOBALS['mangpos'] as $k => $v)
+                    {
+                        if ($v == $_GET['network'])
+                        {
                             $name[] = "Mạng " . $k;
                         }
                     }
-                } else {
-                    if(is_numeric($_GET['network']) and $_GET['network'] != 0)
+                } else
+                {
+                    if (is_numeric($_GET['network']) and $_GET['network'] != 0)
                     {
-                         $name[] = "Mạng " . $_GET['network'];
+                        $name[] = "Mạng " . $_GET['network'];
                     }
-                   
+
                 }
             }
-            if (isset($_GET['giatu']) and isset($_GET['den'])) {
+            if (isset($_GET['giatu']) and isset($_GET['den']))
+            {
                 $gtu = stringtonumber($_GET['giatu']);
                 $gden = stringtonumber($_GET['den']);
 
@@ -343,12 +371,13 @@ include_once "locsim.php";
             }
 
             $this->assign("name", isset($name) ? @join(" ", $name) : "");
-            $this->assign("nav", navmenu());
+
             $this->assign("thisdomain", thisdomain);
 
             $this->registerFilter("output", "minify_html");
 
-            if (isset($_GET['print'])) {
+            if (isset($_GET['print']))
+            {
                 $this->assign("header", getPage('print_header'));
 
 

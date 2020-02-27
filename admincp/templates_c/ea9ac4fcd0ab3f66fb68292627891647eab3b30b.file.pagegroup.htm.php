@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2018-10-20 10:11:02
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-12-18 10:07:49
          compiled from "/usr/local/lib/php/app/adm/templates/pagegroup.htm" */ ?>
-<?php /*%%SmartyHeaderCode:18616241515bca9cc627d280-94537689%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13430078815df99805c4dd41-59296458%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ea9ac4fcd0ab3f66fb68292627891647eab3b30b' => 
     array (
       0 => '/usr/local/lib/php/app/adm/templates/pagegroup.htm',
-      1 => 1475289383,
+      1 => 1576138299,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18616241515bca9cc627d280-94537689',
+  'nocache_hash' => '13430078815df99805c4dd41-59296458',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5bca9cc62fba99_05502845',
+  'unifunc' => 'content_5df99805cbed37_49380575',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5bca9cc62fba99_05502845')) {function content_5bca9cc62fba99_05502845($_smarty_tpl) {?><div class="panel panel-success">
+<?php if ($_valid && !is_callable('content_5df99805cbed37_49380575')) {function content_5df99805cbed37_49380575($_smarty_tpl) {?><div class="panel panel-success">
   <div class="panel-heading">
     <h2 class="panel-title">Quản lý nhóm tin</h2>
   </div>
