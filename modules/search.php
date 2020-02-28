@@ -308,13 +308,6 @@ class search extends smartyBC
             }
 
 
-
-//$num_rows=\elatic\num_rows("SELECT * FROM " . TABLE_SIM .  {$where});
-    $pages = new Paginator(1, 5, array(
-                100,
-                250,
-                500));
-
             //$paging = $pages->display_pages();
             // $paging .= $pages->display_jump_menu();
             if (isset($_SESSION['toggleprice']))
@@ -323,19 +316,28 @@ class search extends smartyBC
                 $orderby = "ORDER BY giaban";
             include_once "locsim.php";
 
-            $sql = "SELECT * FROM " . TABLE_SIM . " {$where} {$orderby} limit $pages->limit_start,$pages->limit_end";
+
+            $page = explode("page=", $_SERVER['REQUEST_URI']);
+            $page = isset($page[1]) ? $page[1] : 1;
+
+            $max = 60;
+            $bg = ($page - 1) * $max;
+
+            $sql = "SELECT * FROM " . TABLE_SIM . " {$where} {$orderby} limit $bg,$max";
+
+            $result = \elatic\getSim($bg, $sql);
+
+            $this->assign("data", $result['data']);
 
 
-            if ($pages->current_page == 1)
-                $i = 0;
-            else
-                $i = $pages->limit_start;
-       
-            $this->assign("data",\elatic\getSim($i,$sql));
+            $pages = new Paginator($result['total'], 9, array(
+                100,
+                250,
+                500));
+            $paging = $pages->display_pages();
 
 
-                  
-                           $this->assign("paging", $paging);
+            $this->assign("paging", $paging);
         
 
             if (isset($_GET['sim']))

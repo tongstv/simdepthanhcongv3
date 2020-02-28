@@ -24,7 +24,7 @@ if (file_exists(__DIR__ . "/../conf2.php")) {
 }
 print_r($db);
 $nosql = new nosql($config);
-$total = ceil(60000 / 2000);
+$total = ceil(6000000 / 2000);
 for ($i = 1; $i <= $total; $i++) {
     $nosql->syncdb($db);
 }

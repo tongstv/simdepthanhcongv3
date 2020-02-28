@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/v3/vendor/elasticsearch/elasticsearch" />
+      <path value="$PROJECT_DIR$/v3/vendor/guzzlehttp/ringphp" />
+      <path value="$PROJECT_DIR$/v3/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/v3/vendor/composer" />
+      <path value="$PROJECT_DIR$/v3/vendor/guzzlehttp/streams" />
+      <path value="$PROJECT_DIR$/v3/vendor/react/promise" />
+    </include_path>
+  </component>
+</project>

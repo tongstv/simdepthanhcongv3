@@ -133,7 +133,8 @@ class nosql
             $params['body'][] = [
                 'index' => [
                     '_index' => $index,
-                    '_type' => '_doc'
+                    '_type' => '_doc',
+                    '_id' => $row['sim2']
                 ]
             ];
 
@@ -175,12 +176,18 @@ class nosql
 
     }
 
-    public function syncdb($config)
+    public function syncdb($config,$new=0)
     {
+
         $this->map();
 
         $db = new mysqli($config['host'], $config['db_user'], $config['db_pass'],
             $config['db_name']);
+
+        if($new==1)
+        {
+            $db->query("update sim SET sync=0");
+        }
         $this->addcol($db);
         $data = [];
         $query = $db->query("select * from sim where sync = 0 limit 2000");

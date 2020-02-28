@@ -79,29 +79,32 @@ class home extends SmartyBC
 
 
         include_once "locsim.php";
-        $num_rows = num_rows_cache("SELECT count(*) AS num_rows FROM " . TABLE_SIM . " {$where}");
+       //$num_rows = \elatic\num_rows("SELECT * FROM " . TABLE_SIM . " {$where}");
+
 
     
 
 
-        $sql = "SELECT sim1, sim2, giaban, mang, tong FROM " . TABLE_SIM .
-            " {$where} {$orderby} limit $pages->limit_start,$pages->limit_end";
 
-echo $sql;
+        $page = explode("page=", $_SERVER['REQUEST_URI']);
+        $page = isset($page[1]) ? $page[1] : 1;
 
-        if ($pages->current_page == 1)
-            $i = 0;
-        else
-            $i = $pages->limit_start;
-        $this->assign("data", getSim($i, $sql));
+        $max = 60;
+        $bg = ($page - 1) * $max;
+
+        $sql = "SELECT * FROM " . TABLE_SIM . " {$where} {$orderby} limit $bg,$max";
+
+        $result = \elatic\getSim($bg, $sql);
+
+        $this->assign("data", $result['data']);
 
 
-    $pages = new Paginator($num_rows, 9, array(
+        $pages = new Paginator($result['total'], 9, array(
             $sethome->maxrow(),
             250,
             500));
-
         $paging = $pages->display_pages();
+
 
         $this->assign("paging", $paging);
 

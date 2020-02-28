@@ -22,6 +22,13 @@ if (file_exists(__DIR__ . "/../conf2.php")) {
 
 
 }
-print_r($db);
+
 $nosql = new nosql($config);
-$nosql->syncdb($db);
+$new=0;
+if($argv[1]=="new")
+{
+    $new =1;
+    echo "Đồng bộ lại";
+}
+
+$nosql->syncdb($db,$new);

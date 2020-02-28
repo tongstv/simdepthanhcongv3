@@ -10,7 +10,21 @@ use Elasticsearch\ClientBuilder;
 
 $client = ClientBuilder::create()->build();
 
+function getById($id)
+{
+    global $client;
 
+    $params['index'] = "sim";
+    $params['type'] = "_doc";
+    $params['id'] = $id;
+    $response = [];
+
+    $response = $client->get($params)['_source'];
+
+
+    return $response;
+
+}
 function deletesimdl($simdl)
 {
     global $client;
@@ -42,7 +56,7 @@ function getSim($i, $sql)
     $body = SqlToElatic($sql);
 
     $result = $client->search($body);
-
+//print_r($result);
     $hits = $result['hits']['hits'];
     $total = $result['hits']['total'];
 
@@ -57,10 +71,12 @@ function getSim($i, $sql)
         }
     }
 
-    return $data;
+    return ['data' => $data, 'total' => $total];
 
 
 }
+
+
 
 function SqlToElatic($sql2)
 {
@@ -82,20 +98,52 @@ function SqlToElatic($sql2)
 
     if (preg_match('/order(\s)?by(\s)?([\S]+)(\s)?([\S]+)/', $sql, $orderby)) {
         if (in_array($orderby[5], ['desc', 'asc'])) {
-            $body['sort'][$orderby[3]]['order'] = strtolower($orderby[5]);
+            $body['body']['sort'][$orderby[3]]['order'] = strtolower($orderby[5]);
         }
 
     }
 
 
     $and = [];
-    if (preg_match('/r?like(\s)?\'([0-9\%]+)\'/', $sql, $rlike)) {
+    if (preg_match('/r?like(\s)?\'([0-9\.\*]+)\'/', $sql, $rlike)) {
 
         $and[] = [
             'wildcard' => [
 
                 'sim2' => [
-                    'wildcard' => str_replace("%", "*", $rlike[2])
+                    'wildcard' => "*" . str_replace(".*", "", $rlike[2])
+
+                ]
+            ]
+
+        ];
+
+
+    }
+
+    if (preg_match('/r?like(\s)?\'\.\*([0-9]+)\\$\'/', $sql, $rlike)) {
+
+        $and[] = [
+            'wildcard' => [
+
+                'sim2' => [
+                    'wildcard' => "*" . str_replace(".*", "", $rlike[2])
+
+                ]
+            ]
+
+        ];
+
+
+    }
+
+    if (preg_match('/r?like(\s)?\'\^([0-9]+)\.\*([0-9]+)\$\'/', $sql, $rlike)) {
+
+        $and[] = [
+            'wildcard' => [
+
+                'sim2' => [
+                    'wildcard' => $rlike[2] . "*" . $rlike[3]
 
                 ]
             ]
@@ -110,6 +158,18 @@ function SqlToElatic($sql2)
             'term' => [
                 'mang' =>
                     ['value' => $mang[4]]
+            ]
+        ];
+    }
+
+
+    if (preg_match('/simdl(\s)?in\(([0-9a-z\,]+)\)/', $sql, $simdl)) {
+
+
+        $and[] = [
+            'terms' => [
+                'simdl' => @explode(",", $simdl[2])
+
             ]
         ];
     }
@@ -183,10 +243,10 @@ function SqlToElatic($sql2)
     }
 
     if (isset($tempbool)) {
-        $body['body']['query']['bool']['must'][] = $tempbool;
+        $body['body']['query']['bool']['must'] = $tempbool;
     }
 
-
+//print_r($body);
     return $body;
 
 }

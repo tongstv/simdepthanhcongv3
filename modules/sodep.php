@@ -61,27 +61,28 @@ class sodep extends Smarty
         }
 
 
-        $num_rows = num_rows_cache("SELECT count(*) AS num_rows FROM sim {$where}");
+        $page = explode("page=", $_SERVER['REQUEST_URI']);
+        $page = isset($page[1]) ? $page[1] : 1;
 
-        $pages = new Paginator($num_rows, 9, array(
+        $max = 60;
+        $bg = ($page - 1) * $max;
+
+        $sql = "SELECT * FROM " . TABLE_SIM . " {$where} {$orderby} limit $bg,$max";
+
+        $result = \elatic\getSim($bg, $sql);
+
+        $this->assign("data", $result['data']);
+
+
+        $pages = new Paginator($result['total'], 9, array(
             100,
             250,
             500));
-
-
         $paging = $pages->display_pages();
 
 
-        $sql = "SELECT * FROM sim {$where} {$orderby} limit $pages->limit_start,$pages->limit_end";
+        $this->assign("paging", $paging);
 
-
-        if ($pages->current_page == 1)
-            $i = 0;
-        else
-            $i = $pages->limit_start;
-        $this->assign("data", getSim($i, $sql));
-        if ($this->lcs)
-            $this->assign("paging", $paging);
 
 
         if (isset($_GET['type']))

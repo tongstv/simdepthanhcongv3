@@ -131,15 +131,13 @@ class ordered extends SmartyBC
                 $where = "WHERE sim2='" . $_GET['sosim'] . "'";
 
 
-            $result = $db->query("SELECT sim1, sim2, giaban, simdl FROM " . TABLE_SIM . " {$where}");
-            $tt = 0;
-            while ($row = $db->fetch_array($result)) {
+            $row = \elatic\getById($_GET['sosim']);
+
                 $tt += $row['giaban'];
                 $row['doctien'] = doctien($row['giaban'] * 1000000);
                 $data[] = $row;
-            }
 
-            $db->free_result($result);
+
         } else {
             $row = array();
             $row['sim1'] = $sosim;
