@@ -1,4 +1,4 @@
-      $page = explode("page=", $_SERVER['REQUEST_URI']);
+         $page = explode("page=", $_SERVER['REQUEST_URI']);
             $page = isset($page[1]) ? $page[1] : 1;
 
             $max = 60;

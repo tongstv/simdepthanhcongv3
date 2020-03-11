@@ -14,7 +14,7 @@ class home extends SmartyBC
     {
 
 
-        $cache_key = "simmoi";
+        $cache_key = "simmoi118";
 
         if (cache($cache_key) === null):
 
@@ -26,7 +26,7 @@ class home extends SmartyBC
             //echo ',,,,,,,,,,,,,,,,,,,,,,,,'.$simdl2;
 
 
-            $result = $db->getAll("select * from simso WHERE simdl=" . $simdl2 . " limit 36");
+            $result = \elatic\getSim(1,"select * from sim WHERE sim2 and simdl=" . $simdl2 . " limit 0, 36")['data'];
 
 
             foreach ($result AS $row) {
@@ -35,7 +35,7 @@ class home extends SmartyBC
                 $data[] = $row;
             }
 
-            cache($cache_key, serialize($data), "+7 hour", "cache/page/");
+            cache($cache_key, serialize($data), "+30 seconds", "cache/page/");
         else:
 
             $data = unserialize(cache($cache_key));
@@ -82,7 +82,7 @@ class home extends SmartyBC
        //$num_rows = \elatic\num_rows("SELECT * FROM " . TABLE_SIM . " {$where}");
 
 
-    
+
 
 
 

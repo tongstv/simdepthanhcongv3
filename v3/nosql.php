@@ -1,6 +1,8 @@
 <?php
+date_default_timezone_set('Asia/Ho_Chi_Minh');
 require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . "/nosql_function.php";
+require __DIR__ . "/elatic.php";
 
 use Elasticsearch\ClientBuilder;
 
@@ -41,6 +43,7 @@ class nosql
                 'mang' => ['type' => 'integer'],
                 'dau' => ['type' => 'integer'],
                 'tong' => ['type' => 'integer'],
+                'diem' => ['type' => 'integer'],
                 'loai' => ['type' => 'integer'],
                 'simdl' => ['type' => 'integer'],
 
@@ -184,13 +187,17 @@ class nosql
         $db = new mysqli($config['host'], $config['db_user'], $config['db_pass'],
             $config['db_name']);
 
+        deletesynced($db);
+
         if($new==1)
         {
             $db->query("update sim SET sync=0");
+            elatic\client()->indices()->delete(['index'=>'sim']);
+            $this->map();
         }
         $this->addcol($db);
         $data = [];
-        $query = $db->query("select * from sim where sync = 0 limit 2000");
+        $query = $db->query("select * from sim where sync = 0 limit 5000");
         $i = 0;
         while ($row = $query->fetch_assoc()) {
 
@@ -201,17 +208,18 @@ class nosql
             $row['tong'] = tinhtong($row['sim2']);
             $row['mang'] = simtomang($row['sim2']);
             $row['dau'] = substr($row['sim2'], 0, 2);
+            $row['diem']=substr( $row['tong'] ,-1,1);
 
             $sims[] = "'" . $row['sim2'] . "'";
             $data[] = $row;
 
 
-            echo $i . " " . $row['sim2'] . " => NOSQL <br>";
         }
         $this->bulk_data($data, $this->index);
-        if($db->query("update sim SET sync = 1 WHERE sim2 IN(" . join(', ', $sims) . ")"))
+        if($db->query("update sim SET sync = 1 WHERE sim2 IN(" . @join(', ', $sims) . ")"))
         {
-            echo "UPDATE SYNC 1";
+
+            file_put_contents(__DIR__ . "/logs/syncdb.txt", date('d/m/Y H:i:s') . " SQL => SYNC: " . count($sims) . " TO ELATIC");
             unset($sims);
 
         }

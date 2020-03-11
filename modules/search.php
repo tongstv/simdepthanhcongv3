@@ -5,74 +5,10 @@ class search extends smartyBC
 
     function namsinh($d, $m, $y, $x)
     {
-        if ($x == 0)
-        {
-            $where = " AND (";
-            $where .= "RIGHT(sim2,8)='" . $d . $m . $y . "'"; //1 DK 1 01.09.1990
-            $where .= " || RIGHT(sim2,7)='" . substr($d, -1, 1) . $m . $y . "'"; //DK 2 1.09.1990
-            if ($m < 10)
-                $where .= " || RIGHT(sim2,7)='" . $d . substr($m, -1, 1) . $y . "'"; //DK 3 01.9.1990
-            if ($m < 10 && $d < 10)
-            {
-                $where .= " || RIGHT(sim2,6)='" . substr($d, -1, 1) . substr($m, -1, 1) . $y .
-                    "'"; //DK4 1.9.1990
-                $where .= " || RIGHT(sim2,6)='" . $d . $m . substr($y, -2, 2) . "'"; //DK5 01.09.90
-            }
-            if ($d < 10)
-                $where .= " || RIGHT(sim2,5)='" . substr($d, -1, 1) . $m . substr($y, -2, 2) .
-                    "'"; //DK6 1.09.90
-            if ($m < 10)
-                $where .= " || RIGHT(sim2,5)='" . $d . substr($m, -1, 1) . substr($y, -2, 2) .
-                    "'"; //DK7 01.9.90
-            if ($m < 10 && $d < 10)
-                $where .= " || RIGHT(sim2,4)='" . substr($d, -1, 1) . substr($m, -1, 1) . substr($y,
-                    -2, 2) . "'"; //DK8 1.9.90
-            $where .= " || RIGHT(sim2,4)='" . $y . "'"; //DK 9 VD: 1990
-            $where .= ")";
 
-        } else
-            if ($x == 2)
-            {
-                $where = " AND (";
 
-                $where .= "RIGHT(sim2,6)='" . $d . $m . substr($y, -2, 2) . "'";
-                /*
-                if ($m < 10)
-                $where .= "RIGHT(sim2,6)='" . $d . $m . $y . "'"; //DK 3 01.9.1990
-                if ($m < 10 && $d < 10) {
-                /*$where .= " || RIGHT(sim2,6)='" . substr($d, -1, 1) . substr($m, -1, 1) . $y .
-                "'"; //DK4 1.9.1990
-                $where .= " || RIGHT(sim2,6)='" . $d . $m . substr($y, -2, 2) . "'"; //DK5 01.09.90
-                }
+        $where = "and simnamsinh ='" . $d . "-" . $m . "-" . $y . "' and type ='" . $x . "'";
 
-                /*if ($d < 10)
-                $where .= " || RIGHT(sim2,5)='" . substr($d, -1, 1) . $m . substr($y, -2, 2) .
-                "'"; //DK6 1.09.90
-                if ($m < 10)
-                $where .= " || RIGHT(sim2,5)='" . $d . substr($m, -1, 1) . substr($y, -2, 2) .
-                "'"; //DK7 01.9.90
-                if ($m < 10 && $d < 10)
-                $where .= " || RIGHT(sim2,4)='" . substr($d, -1, 1) . substr($m, -1, 1) . substr($y,
-                -2, 2) . "'"; //DK8 1.9.90
-                if ($where != ' AND (')
-                $where .= " || RIGHT(sim2,4)='" . $y . "'"; //DK 9 VD: 1990
-                else
-                $where .= " RIGHT(sim2,4)='" . $y . "'"; //DK 9 VD: 1990*/
-                $where .= ")";
-            } else
-                if ($x == 1)
-                {
-                    $where = " AND (";
-                    $where .= "RIGHT(sim2,8)='" . $d . $m . $y . "'"; //1 DK 1 01.09.1990
-                    $where .= " || RIGHT(sim2,7)='" . substr($d, -1, 1) . $m . $y . "'"; //DK 2 1.09.1990
-                    if ($m < 10)
-                        $where .= " || RIGHT(sim2,7)='" . $d . substr($m, -1, 1) . $y . "'"; //DK 3 01.9.1990
-
-                    $where .= " || RIGHT(sim2,4)='" . $y . "'"; //DK 9 VD: 1990
-
-                    $where .= ")";
-
-                }
         return $where;
     }
 
@@ -264,48 +200,7 @@ class search extends smartyBC
 
         
 
-            // $this->assign("linkp2",$qstring."?page=".$cuspage-1);
-
-
-            /*
-            $db->query("SELECT SQL_CALC_FOUND_ROWS (sim2) FROM sim LIMIT $offset,600");
-            
-            
-
-            
-            
-            $num_rows =$db->query_first("SELECT FOUND_ROWS() as num");
-            
-            $num_rows =$num_rows['num'];
-            
-            
-            
-            
-            /*
-            
-            $offset = 
-            "SELECT SQL_CALC_FOUND_ROWS sim2 FROM sim LIMIT 600 OFFSET $offset"         
-            
-            
-            */
-     
-
-
         
-
-            if (isset($_GET['tongdiem']) and isset($_GET['tongnut']))
-            {
-
-                if ((int)$_GET['tongdiem'] > 0)
-                    $where .= " AND tong=" . (int)$_GET['tongdiem'];
-                else
-                    if ((int)$_GET['tongnut'] > 0)
-                    {
-                        if ((int)$_GET['tongnut'] == 10)
-                            $_GET['tongnut'] = 0;
-                        $where .= " AND right(tong,1)=" . (int)$_GET['tongnut'];
-                    }
-            }
 
 
             //$paging = $pages->display_pages();
@@ -324,6 +219,7 @@ class search extends smartyBC
             $bg = ($page - 1) * $max;
 
             $sql = "SELECT * FROM " . TABLE_SIM . " {$where} {$orderby} limit $bg,$max";
+
 
             $result = \elatic\getSim($bg, $sql);
 

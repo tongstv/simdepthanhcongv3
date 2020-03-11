@@ -32,10 +32,7 @@ class sodep extends Smarty
 
 
         if (isset($_GET['type'])) {
-            if (is_array($kieu[$_GET['type']]))
-                $where .= " AND (" . join(" AND ", $kieu[$_GET['type']]) . ")";
-            else
-                $where .= " AND (" . $kieu[$_GET['type']] . ")";
+            $where .= " and loai = " . \elatic\maploai($_GET['type']);
         }
 
 
@@ -68,6 +65,8 @@ class sodep extends Smarty
         $bg = ($page - 1) * $max;
 
         $sql = "SELECT * FROM " . TABLE_SIM . " {$where} {$orderby} limit $bg,$max";
+
+        file_get_contents("sql.txt",$sql);
 
         $result = \elatic\getSim($bg, $sql);
 

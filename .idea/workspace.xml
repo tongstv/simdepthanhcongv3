@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffaf782c-5ccb-497f-8a97-fbf4f6e727b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3/update.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/simdepthanhcong.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simdepthanhcong.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v3/logs/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf2.php" beforeDir="false" afterPath="$PROJECT_DIR$/conf2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cron.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cron.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/ordered.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ordered.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/simhot.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/simhot.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/sodep.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/sodep.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/footer.htm" beforeDir="false" afterPath="$PROJECT_DIR$/template/footer.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/home.htm" beforeDir="false" afterPath="$PROJECT_DIR$/template/home.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v3/elatic.php" beforeDir="false" afterPath="$PROJECT_DIR$/v3/elatic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v3/for6.php" beforeDir="false" afterPath="$PROJECT_DIR$/v3/for6.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v3/nosql.php" beforeDir="false" afterPath="$PROJECT_DIR$/v3/nosql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v3/nosql_function.php" beforeDir="false" afterPath="$PROJECT_DIR$/v3/nosql_function.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v3/syncdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/v3/syncdb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v3/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/v3/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v3/update.txt" beforeDir="false" afterPath="$PROJECT_DIR$/v3/update.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,16 +27,43 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/v3/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/home.php">
+        <entry file="file://$PROJECT_DIR$/v3/nosql_function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+            <state relative-caret-position="935">
+              <caret line="55" selection-start-line="55" selection-end-line="82" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/v3/syncdb.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/footer.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="386" column="105" selection-start-line="386" selection-start-column="105" selection-end-line="386" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -39,65 +71,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v3/elatic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+            <state relative-caret-position="459">
+              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v3/update.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-line="20" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="319" column="6" selection-start-line="319" selection-start-column="6" selection-end-line="339" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dh.class.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/sodep.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v3/nosql_function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-339" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v3/nosql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="188" column="48" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="48" />
+            <state relative-caret-position="3298">
+              <caret line="194" column="65" selection-start-line="194" selection-start-column="65" selection-end-line="194" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/cron.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="42" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -105,10 +107,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v3/for6.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="187">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/cod.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -117,17 +124,16 @@
     <findStrings>
       <find>body</find>
       <find>sieu</find>
+      <find>sim số đêpi</find>
+      <find>stv,</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/v3" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;1c34d11a-803e-4f22-9312-a3affb924b66&gt;/conf2.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/dh.class.php" />
         <option value="$PROJECT_DIR$/my_mode/cus_header.php" />
         <option value="$PROJECT_DIR$/modules/header.php" />
         <option value="$PROJECT_DIR$/modules/footer.php" />
@@ -152,17 +158,33 @@
         <option value="E:/FlashFXP/Cache/~flashfxp/4755F67E_edit.tmp/footer.htm" />
         <option value="E:/FlashFXP/Cache/~flashfxp/4755F67E_edit.tmp/search.htm" />
         <option value="$PROJECT_DIR$/template/css/fixstyle.css" />
-        <option value="$PROJECT_DIR$/v3/nosql.php" />
-        <option value="$PROJECT_DIR$/v3/syncdb.php" />
         <option value="$PROJECT_DIR$/v3/test.php" />
         <option value="$PROJECT_DIR$/modules/ordered.php" />
-        <option value="$PROJECT_DIR$/v3/for6.php" />
-        <option value="$PROJECT_DIR$/v3/elatic.php" />
-        <option value="$PROJECT_DIR$/modules/search.php" />
-        <option value="$PROJECT_DIR$/v3/update.txt" />
-        <option value="$PROJECT_DIR$/conf2.php" />
-        <option value="$PROJECT_DIR$/modules/home.php" />
+        <option value="$PROJECT_DIR$/elatic.php" />
         <option value="$PROJECT_DIR$/modules/sodep.php" />
+        <option value="$PROJECT_DIR$/v3/update.txt" />
+        <option value="$PROJECT_DIR$/v3/for6.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/v3/logs/.htaccess" />
+        <option value="$PROJECT_DIR$/v3/README.md" />
+        <option value="$PROJECT_DIR$/modules/search.php" />
+        <option value="$PROJECT_DIR$/v3/nosql_function.php" />
+        <option value="$PROJECT_DIR$/conf2.php" />
+        <option value="$PROJECT_DIR$/v3/phongthuy.php" />
+        <option value="$PROJECT_DIR$/template/home.htm" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/8FB0C1D2_edit.tmp/error.log" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/F0CF97FA_edit.tmp/bill.stv.vn.error.log" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/4C605C0B_edit.tmp/configuration.php" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/7C34D0C1_edit.tmp/bill.stv.vn.nginx.ssl.conf" />
+        <option value="E:/FlashFXP/Cache/~flashfxp/72F6B19C_edit.tmp/syncdb.php" />
+        <option value="$PROJECT_DIR$/modules/simhot.php" />
+        <option value="$PROJECT_DIR$/v3/logs/index.php" />
+        <option value="$PROJECT_DIR$/modules/home.php" />
+        <option value="$PROJECT_DIR$/v3/elatic.php" />
+        <option value="$PROJECT_DIR$/v3/nosql.php" />
+        <option value="$PROJECT_DIR$/modules/cron.php" />
+        <option value="$PROJECT_DIR$/template/footer.htm" />
+        <option value="$PROJECT_DIR$/v3/syncdb.php" />
       </list>
     </option>
   </component>
@@ -186,10 +208,11 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="226" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="width" value="1908" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -205,12 +228,13 @@
             <path>
               <item name="simdepthanhcong" type="b2602c69:ProjectViewProjectNode" />
               <item name="simdepthanhcong" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="v3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simdepthanhcong" type="b2602c69:ProjectViewProjectNode" />
               <item name="simdepthanhcong" type="462c0819:PsiDirectoryNode" />
               <item name="v3" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,16 +275,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.elatic.php">
+  <component name="RunManager" selected="PHP Script.phongthuy.php">
     <configuration name="conf2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/conf2.php">
       <method v="2" />
     </configuration>
-    <configuration name="elatic.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/v3/elatic.php">
+    <configuration name="elatic.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/v3/elatic.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="nosql.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/v3/nosql.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="phongthuy.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/v3/phongthuy.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="sodep.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/modules/sodep.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.elatic.php" />
+        <item itemvalue="PHP Script.phongthuy.php" />
+        <item itemvalue="PHP Script.nosql.php" />
+        <item itemvalue="PHP Script.sodep.php" />
         <item itemvalue="PHP Script.conf2.php" />
       </list>
     </recent_temporary>
@@ -281,30 +316,79 @@
       <workItem from="1576160747047" duration="599000" />
       <workItem from="1576230698320" duration="1971000" />
       <workItem from="1582812130702" duration="7123000" />
-      <workItem from="1582850218513" duration="1626000" />
+      <workItem from="1582850218513" duration="3560000" />
+      <workItem from="1582853928136" duration="2545000" />
+      <workItem from="1582881364846" duration="5700000" />
+      <workItem from="1582903155636" duration="12017000" />
+      <workItem from="1582941122147" duration="3603000" />
+      <workItem from="1582963172093" duration="148000" />
+      <workItem from="1582971338899" duration="200000" />
+      <workItem from="1583042514478" duration="4588000" />
+      <workItem from="1583117333516" duration="212000" />
+      <workItem from="1583123103257" duration="42000" />
+      <workItem from="1583206308344" duration="4258000" />
+      <workItem from="1583249367774" duration="24000" />
+      <workItem from="1583329243856" duration="284000" />
+      <workItem from="1583373727211" duration="472000" />
+      <workItem from="1583384726469" duration="136000" />
+      <workItem from="1583413340085" duration="327000" />
+      <workItem from="1583485147585" duration="825000" />
+      <workItem from="1583487109136" duration="301000" />
+      <workItem from="1583654944355" duration="141000" />
+      <workItem from="1583811571164" duration="720000" />
+      <workItem from="1583812686418" duration="706000" />
+      <workItem from="1583830798368" duration="120000" />
+      <workItem from="1583853197528" duration="706000" />
+      <workItem from="1583900447586" duration="1600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33712000" />
+    <option name="totallyTimeSpent" value="75321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21588486" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4978678" weight="0.30888888" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026652" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4968017" weight="0.30888888" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50319827" side_tool="true" weight="0.30888888" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49733475" visible="true" weight="0.23222223" />
+      <window_info active="true" anchor="bottom" id="REST Client" order="13" visible="true" weight="0.33888888" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Google Cloud Storage" order="4" show_stripe_button="false" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Kubernetes Explorer" order="6" weight="0.030916844" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22228146" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4968017" visible="true" weight="0.30888888" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50319827" side_tool="true" visible="true" weight="0.30888888" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -317,124 +401,48 @@
       <window_info anchor="right" id="Google Cloud Storage" order="4" show_stripe_button="false" />
       <window_info anchor="right" id="Remote Host" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Kubernetes Explorer" order="6" weight="0.030916844" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21588486" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4978678" weight="0.30888888" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026652" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" visible="true" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49733475" visible="true" weight="0.23111111" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="13" visible="true" weight="0.33888888" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Google Cloud Storage" order="4" show_stripe_button="false" />
-      <window_info anchor="right" id="Remote Host" order="5" weight="0.32995737" />
-      <window_info anchor="right" id="Kubernetes Explorer" order="6" visible="true" weight="0.030916844" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/CC4C4C50_edit.tmp/SmartyBC.class.php" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/FD9DF687_edit.tmp/Database.class.php" />
-    <entry file="file://$USER_HOME$/Desktop/Mutipeserver_setup/slave.txt">
+    <entry file="file://$PROJECT_DIR$/modules/editable.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Mutipeserver_setup/melinh.txt">
+    <entry file="file://$PROJECT_DIR$/modules/sitemap.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/84C8B7F8_edit.tmp/default.tpl" />
-    <entry file="file://$USER_HOME$/Desktop/Mutipeserver_setup/nginx/nginx/default.tpl">
+    <entry file="file://$PROJECT_DIR$/modules/json.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/giaodien.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/files.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/city.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/footer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        <state relative-caret-position="1258">
+          <caret line="74" column="66" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A61C4F55_edit.tmp/simdepthanhcong.com.nginx.conf" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A61C4F55_edit.tmp/simdepthanhcong.com.httpd.conf" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/276DE5D2_edit.tmp/default.tpl" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/276DE5D2_edit.tmp/default.stpl" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/D3E7239D_edit.tmp/vesta.conf" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/D3E7239D_edit.tmp/phpMyAdmin.conf" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/461EB641_edit.tmp/my.cnf" />
-    <entry file="file://G:/vespa_cp/install.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60.tmp/info.php" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60.tmp/i.php" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60_edit.tmp/conf2.php" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/24CE4002_edit.tmp/cron.php" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/E89A2894_edit.tmp/my.cnf" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60_edit.tmp/error.log" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/A1F02B60_edit.tmp/index.php" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/C93CA258_edit.tmp/simdepthanhcong.com.error.log" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/24CE4002_edit.tmp/search.php" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/FB59F248_edit.tmp/app.php" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/5C6B3D9E_edit.tmp/error.2019-12-13.log" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/9F96216F_edit.tmp/stvinc.php" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/4755F67E_edit.tmp/footer.htm" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/1E794C84_edit.tmp/footer.php" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/4755F67E_edit.tmp/search.htm" />
-    <entry file="file://E:/FlashFXP/Cache/~flashfxp/1E794C84_edit.tmp/search.php" />
-    <entry file="file://$PROJECT_DIR$/template/print.htm">
+    <entry file="file://$PROJECT_DIR$/modules/header.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/search.htm">
+    <entry file="file://$PROJECT_DIR$/modules/slow.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/error.log">
+    <entry file="file://$PROJECT_DIR$/modules/smsapi.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17796" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/css/css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/css/fixstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7276">
-          <caret line="428" column="27" selection-start-line="428" selection-start-column="27" selection-end-line="428" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v3/syncdb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ordered.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v3/test.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -443,73 +451,214 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/simhot.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/page.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v3/nosql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="188" column="48" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v3/nosql_function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v3/for6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v3/elatic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dh.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="319" column="6" selection-start-line="319" selection-start-column="6" selection-end-line="339" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/v3/update.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" selection-end-line="20" selection-end-column="45" />
+          <caret selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ordered.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="123" selection-start-line="123" selection-end-line="147" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="535">
+            <caret line="90" column="3" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3451">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v3/logs/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elatic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v3/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1547">
+            <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/sodep.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+        <state relative-caret-position="1088">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v3/phongthuy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syncdb.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="161" column="65" selection-start-line="161" selection-start-column="65" selection-end-line="161" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/home.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="379" column="10" selection-start-line="379" selection-start-column="10" selection-end-line="379" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#div#3;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#3;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/492C6BDB_edit.tmp/installer.log" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/4C605C0B_edit.tmp/init.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/4C605C0B_edit.tmp/configuration.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/D3583388_edit.tmp/index.php" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/3110A329_edit.tmp/.htaccess" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/7C34D0C1_edit.tmp/bill.stv.vn.nginx.ssl.conf" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/7C34D0C1_edit.tmp/xchat.stv.vn.nginx.ssl.conf" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/72F6B19C_edit.tmp/syncdb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/khuyenmai.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/simhot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v3/composer.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/CAE931CB_edit.tmp/conf.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/8FB0C1D2_edit.tmp/error.log" />
+    <entry file="file://$PROJECT_DIR$/v3/logs/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/F0CF97FA_edit.tmp/bill.stv.vn.error.log" />
+    <entry file="file://E:/FlashFXP/Cache/~flashfxp/7C34D0C1_edit.tmp/bill.stv.vn.nginx.conf" />
+    <entry file="file://$PROJECT_DIR$/v3/nosql_function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" selection-start-line="55" selection-end-line="82" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v3/elatic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v3/for6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cod.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v3/nosql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3298">
+          <caret line="194" column="65" selection-start-line="194" selection-start-column="65" selection-end-line="194" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="386" column="105" selection-start-line="386" selection-start-column="105" selection-end-line="386" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v3/syncdb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
         </state>
       </provider>
     </entry>

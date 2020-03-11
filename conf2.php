@@ -42,7 +42,7 @@ if (!function_exists('sql_cache')) {
 
 }
 
-#register_shutdown_function("shutdown_error_handler");
+register_shutdown_function("shutdown_error_handler");
 
 function shutdown_error_handler()
 {
@@ -52,18 +52,8 @@ function shutdown_error_handler()
     if (isset($lasterror)) {
         $message = '' . $lasterror['type'] . ') | PHP Stopped | Message (' . $lasterror['message'] . ') | File (' . $lasterror['file'] . '';
 
-
-        $fp = @fopen('error.log', 'a+');
-
-
-        flock($fp, LOCK_EX);
-        fwrite($fp, $message);
-        flock($fp, LOCK_UN);
-        fclose($fp);
-
-        if (@filesize('error.log') > 102500) {
-            @unlink("error.log");
-        }
+        $lasterror['url'] = ($_SERVER['HTTPS'] ? 'https://' : 'http://') . @$_SERVER['HTTP_HOST'] . @$_SERVER['REQUEST_URI'];
+        \elatic\error_log($lasterror);
     }
 
 
